@@ -20,25 +20,25 @@ to expiry in 10 years (default is 5 years).
 
 ```json
 {
-    "hosts": [
-        "my-ca.example.com"
-    ],
-    "key": {
-        "algo": "rsa",
-        "size": 2048
-    },
-    "names": [
-        {
-            "C":  "US",
-            "L":  "San Francisco",
-            "O":  "Internet Widgets, Inc.",
-            "OU": "WWW",
-            "ST": "California"
-        }
-    ],
-    "ca": {
-        "expiry": "87600h"
+  "hosts": [
+    "my-ca.example.com"
+  ],
+  "key": {
+    "algo": "rsa",
+    "size": 2048
+  },
+  "names": [
+    {
+      "C":  "US",
+      "L":  "San Francisco",
+      "O":  "Internet Widgets, Inc.",
+      "OU": "WWW",
+      "ST": "California"
     }
+  ],
+  "ca": {
+    "expiry": "87600h"
+  }
 }
 ```
 
@@ -59,12 +59,12 @@ In the example below, we set the expiry of the generated certificate to 5 years
 
 ```json
 {
-    "signing": {
-        "default": {
-            "usages": ["signing", "key encipherment", "server auth", "client auth"],
-            "expiry": "43800h"
-        }
+  "signing": {
+    "default": {
+      "usages": ["signing", "key encipherment", "server auth", "client auth"],
+      "expiry": "43800h"
     }
+  }
 }
 ```
 
