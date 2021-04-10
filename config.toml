@@ -14,7 +14,7 @@ enableGitInfo = true
   [markup.goldmark.renderer]
     unsafe = true
   [markup.highlight]
-    style = "monokailight"
+    style = "tango"
 
 [menu]
 # [[menu.before]]
