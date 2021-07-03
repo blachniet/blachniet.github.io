@@ -4,4 +4,5 @@ Change the expiry of the CA # Set the ca.expiry in the CSR. In the example below
 brew leaves | xargs -I {} echo &amp;#34;^{}$&amp;#34; &amp;gt; leaves.txt Edit leaves.txt, removing any that you want to uninstall.
 Get the list of applications to remove, then remove them. Repeat this process until brew leaves | grep .</description></item><item><title>Let's Encrypt</title><link>https://blachniet.github.io/notes/letsencrypt/</link><pubDate>Thu, 22 Apr 2021 21:24:17 -0400</pubDate><guid>https://blachniet.github.io/notes/letsencrypt/</guid><description>Let&amp;rsquo;s Encrypt # Obtain wildcard certificate # Use the manual plugin and the DNS challenge to obtain a wildcard certificate.
 certbot certonly --manual --preferred-challenges dns -d &amp;#39;*.example.com&amp;#39; Create the TXT record as instructed by certbot. Before continuing, use dig to confirm the records is applied.
-dig txt _acme-challenge.example.com When dig shows that the record is applied, continue the certbot process.</description></item></channel></rss>
+dig txt _acme-challenge.example.com When dig shows that the record is applied, continue the certbot process.
+Google Dig If you don&amp;rsquo;t have dig installed, you could use the Dig tool in the Google Admin Toolbox.</description></item></channel></rss>
