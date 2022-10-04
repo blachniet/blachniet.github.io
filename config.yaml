@@ -101,9 +101,9 @@ params:
   - name: keybase
     url: "https://keybase.io/blachniet"
   - name: cv
-    url: "index.html"  # TODO: Set CV URL
-  - name: Rss
-    url: "index.xml"  # TODO: Set RSS URL
+    url: "https://docs.google.com/document/d/1alOhCXFduDbV_m8P5PAhnR3GEnBWWJauUXsMqsyLwFE"
+  - name: rss
+    url: "/index.xml"
 
   editPost:
     URL: "https://github.com/blachniet/blachniet.github.io" # TODO: Need to double-check this address.
