@@ -4,7 +4,7 @@ date: "2012-06-30"
 categories:
 - "site-updates"
 tags:
-- "c"
+- "csharp"
 - "mvvm"
 - "wpf"
 - "xaml"

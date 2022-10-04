@@ -4,7 +4,7 @@ date: "2013-02-03"
 categories:
 - "site-updates"
 tags:
-- "c"
+- "csharp"
 - "dbcontext"
 - "entity-framework"
 - "visual-studio-2012"

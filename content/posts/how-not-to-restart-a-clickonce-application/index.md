@@ -4,7 +4,7 @@ date: "2012-10-20"
 categories:
 - "site-updates"
 tags:
-- "c"
+- "csharp"
 - "clickonce"
 - "wpf"
 aliases:

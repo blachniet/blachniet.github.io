@@ -4,7 +4,7 @@ date: "2013-12-16"
 categories:
 - "site-updates"
 tags:
-- "c"
+- "csharp"
 aliases:
 - "/blog/read-open-files-c/"
 blachnietWordPressExport: true

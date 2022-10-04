@@ -4,7 +4,7 @@ date: "2013-07-13"
 categories:
 - "site-updates"
 tags:
-- "c"
+- "csharp"
 - "entity-framework"
 aliases:
 - "/blog/referencing-ef-resources-in-a-specific-assembly/"

@@ -6,7 +6,7 @@ categories:
 tags:
 - "angularjs"
 - "asp-net-mvc"
-- "c"
+- "csharp"
 aliases:
 - "/blog/force-bundling-optimizations/"
 blachnietWordPressExport: true

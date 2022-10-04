@@ -7,7 +7,7 @@ tags:
 - "asp-net"
 - "asp-net-identity"
 - "asp-net-mvc"
-- "c"
+- "csharp"
 aliases:
 - "/blog/email-addresses-as-user-names-in-asp-net-identity/"
 blachnietWordPressExport: true

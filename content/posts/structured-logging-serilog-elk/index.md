@@ -4,7 +4,7 @@ date: "2015-02-23"
 categories:
 - "site-updates"
 tags:
-- "c"
+- "csharp"
 - "elasticsearch"
 - "kibana"
 - "logging"

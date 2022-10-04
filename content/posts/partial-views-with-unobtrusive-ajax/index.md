@@ -6,7 +6,7 @@ categories:
 tags:
 - "ajax"
 - "asp-net"
-- "c"
+- "csharp"
 - "mvc-3"
 - "razor"
 aliases:

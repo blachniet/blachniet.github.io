@@ -7,7 +7,7 @@ tags:
 - "asp-net"
 - "asp-net-identity"
 - "asp-net-mvc"
-- "c"
+- "csharp"
 - "openid"
 aliases:
 - "/blog/email-address-in-mvc-5-google-authentication/"
