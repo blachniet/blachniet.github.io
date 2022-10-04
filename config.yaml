@@ -106,7 +106,7 @@ params:
     url: "/index.xml"
 
   editPost:
-    URL: "https://github.com/blachniet/blachniet.github.io" # TODO: Need to double-check this address.
+    URL: "https://github.com/blachniet/blachniet.github.io/edit/master/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
