@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>linux on Brian Lachniet</title>
+    <link>https://blachniet.github.io/tags/linux/</link>
+    <description>Recent content in linux on Brian Lachniet</description>
+    <image>
+      <url>https://blachniet.github.io/papermod-cover.png</url>
+      <link>https://blachniet.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 May 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Failed to get D-Bus connection</title>
+      <link>https://blachniet.github.io/posts/failed-to-get-d-bus-connection/</link>
+      <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/failed-to-get-d-bus-connection/</guid>
+      <description>After setting up the systemd service for Caddy, I received the following error when trying to start the service:
+$ sudo systemctl start caddy.service Job for caddy.service failed. See &amp;#39;systemctl status caddy.service&amp;#39; and &amp;#39;journalctl -xn&amp;#39; for details. $ systemctl status caddy.service Failed to get D-Bus connection: No such file or directory The fix was pretty easy. It turns out that dbus was not installed on the system. I installed it and then the service worked perfectly:</description>
+    </item>
+    
+  </channel>
+</rss>

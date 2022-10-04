@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>site-updates on Brian Lachniet</title>
+    <link>https://blachniet.github.io/categories/site-updates/</link>
+    <description>Recent content in site-updates on Brian Lachniet</description>
+    <image>
+      <url>https://blachniet.github.io/papermod-cover.png</url>
+      <link>https://blachniet.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.github.io/categories/site-updates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obtain a wildcard Let&#39;s Encrypt certificate</title>
+      <link>https://blachniet.github.io/posts/obtain-a-wildcard-lets-encrypt-certificate/</link>
+      <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/obtain-a-wildcard-lets-encrypt-certificate/</guid>
+      <description>Use the manual plugin and DNS challenge in certbot to obtain a wildcard Let&amp;rsquo;s Encrypt TLS certificate.
+ Subdomains only. You can only use this wildcard certificate on subdomains (e.g. www.example.com, mail.example.com). You cannot use it for the apex domain (e.g. example.com). Obtain a separate certificate for the apex domain.
+ $ certbot certonly --manual --preferred-challenges dns -d &amp;#39;*.example.com&amp;#39; Create the TXT record as instructed by certbot. Before continuing, use dig</description>
+    </item>
+    
+    <item>
+      <title>Use a graphical diff tool with Fossil</title>
+      <link>https://blachniet.github.io/posts/use-a-graphical-diff-tool-with-fossil/</link>
+      <pubDate>Sat, 18 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/use-a-graphical-diff-tool-with-fossil/</guid>
+      <description>You can configure Fossil&amp;rsquo;s gdiff command to launch your favorite graphical diff tool. Below are examples configuring some popular diff tools.
+All the examples below include the --global option. If you want to configure this setting only for the current repository, omit that option.
+Beyond Compare:
+$ fossil settings --global gdiff &amp;#39;bcomp&amp;#39; Git:
+$ fossil settings --global gdiff &amp;#39;code --diff --wait&amp;#39; vimdiff:
+$ fossil settings --global gdiff &amp;#39;vimdiff&amp;#39; Visual Studio Code:</description>
+    </item>
+    
+    <item>
+      <title>Resolve Fossil login failures after changing your password</title>
+      <link>https://blachniet.github.io/posts/resolve-fossil-login-failures-after-changing-your-password/</link>
+      <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/resolve-fossil-login-failures-after-changing-your-password/</guid>
+      <description>After changing your password on a remote Fossil repository, you will receive login failures when trying to sync your local repository.
+$ fossil sync Sync with https://blachniet@example.com/test Round-trips: 1 Artifacts sent: 0 received: 0 Error: login failed Round-trips: 1 Artifacts sent: 0 received: 0 Sync done, sent: 420 received: 285 ip: 192.168.0.10 $ fossil commit Autosync: https://blachniet@example.com/test Round-trips: 1 Artifacts sent: 0 received: 0 Error: login failed Round-trips: 1 Artifacts sent: 0 received: 0 Pull done, sent: 446 received: 287 ip: 192.</description>
+    </item>
+    
+    <item>
+      <title>Remove leaf and dependencies in Homebrew</title>
+      <link>https://blachniet.github.io/posts/remove-leaf-and-dependencies-in-homebrew/</link>
+      <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/remove-leaf-and-dependencies-in-homebrew/</guid>
+      <description>A leaf in Homebrew is a formula that is not a dependency of another installed formula. You can list the currently installed leaves using the brew leaves command. See thoughtbot&amp;rsquo;s brew leaves post for more information on this command.
+Removing a leaf in Homebrew can suddenly introduce many more leaves; the dependencies of the formula you removed. In this post I will show you how to remove a leaf as well as all its dependencies not used by any other formulae.</description>
+    </item>
+    
+    <item>
+      <title>Retiring Rager</title>
+      <link>https://blachniet.github.io/posts/retiring-rager/</link>
+      <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/retiring-rager/</guid>
+      <description>I&amp;rsquo;ve decided to shut down the Rager service at the end of October. I haven&amp;rsquo;t had time to improve or maintain the service lately. Some recent outages have gone unresolved for weeks!
+I suggest that those who were using this service consider Libraries.io as an alternative. Libraries.io has:
+ Support for many project repositories and package managers Many features A team supporting the project Corporate sponsorship It&amp;rsquo;s open source!  </description>
+    </item>
+    
+    <item>
+      <title>Authenticate Cloud Vision Client in Go</title>
+      <link>https://blachniet.github.io/posts/auth-cloud-vision-go/</link>
+      <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/auth-cloud-vision-go/</guid>
+      <description>Google&amp;rsquo;s Cloud Platform documentation is top of the line. Even with the documentation though, it took me some time to figure out how to use the Cloud Vision API from a Go application running on a Compute Engine instance. All the right information is there, but it&amp;rsquo;s scattered. Below I&amp;rsquo;ve compiled this information into a few steps.
+Authenticating with the Cloud Vision API involves more setup than the Cloud Datastore, Cloud Pub/Sub and Cloud Storage.</description>
+    </item>
+    
+    <item>
+      <title>Failed to get D-Bus connection</title>
+      <link>https://blachniet.github.io/posts/failed-to-get-d-bus-connection/</link>
+      <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/failed-to-get-d-bus-connection/</guid>
+      <description>After setting up the systemd service for Caddy, I received the following error when trying to start the service:
+$ sudo systemctl start caddy.service Job for caddy.service failed. See &amp;#39;systemctl status caddy.service&amp;#39; and &amp;#39;journalctl -xn&amp;#39; for details. $ systemctl status caddy.service Failed to get D-Bus connection: No such file or directory The fix was pretty easy. It turns out that dbus was not installed on the system. I installed it and then the service worked perfectly:</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reading for Dec 04</title>
+      <link>https://blachniet.github.io/posts/weekend-reading-for-dec-04/</link>
+      <pubDate>Mon, 05 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/weekend-reading-for-dec-04/</guid>
+      <description>Here&amp;rsquo;s a curated list of the articles I read this weekend.
+Negative feedback antipatterns Charles-Axel shares a template for providing negative feedback in a constructive manner. via Software Lead Weekly
+The Books I Recommend For The New Manager I purchased Managing Oneself after reading this post. Google Play had it for less than $7. via Software Lead Weekly
+Visual Studio Development – Productivity Enhancements in Visual Studio 2017 RC Check out some of the productivity enhancements coming in the new Visual Studio.</description>
+    </item>
+    
+    <item>
+      <title>Introducing Rager</title>
+      <link>https://blachniet.github.io/posts/introducing-rager/</link>
+      <pubDate>Sun, 10 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/introducing-rager/</guid>
+      <description>Rager is service that notifies you when the projects you care about most publish a new release. After signing up using your GitHub account, you can start &amp;ldquo;watching&amp;rdquo; your favorite projects hosted by GitHub, NuGet or npm. Every night Rager scans for new releases. If it finds one that you are &amp;ldquo;watching&amp;rdquo;, it sends you an email with a link to the new release!
+This application is a side project that I&amp;rsquo;ve been tinkering with for a while now.</description>
+    </item>
+    
+    <item>
+      <title>Reevaluate Your Log Levels</title>
+      <link>https://blachniet.github.io/posts/log-levels/</link>
+      <pubDate>Sat, 12 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/log-levels/</guid>
+      <description>Constantly reevaluate the logging level applied to log events. Your typing was not directed by angels and your code was not ordained by God when you selected warning as the level for your log event. That code is up for change just like the rest.
+Too often I see piles of log events with poorly assigned log levels. If there’s an error event flooding your logs that you have no intention to fix, change the logging level.</description>
+    </item>
+    
+    <item>
+      <title>Vagrant Hostsupdater Requires Admin</title>
+      <link>https://blachniet.github.io/posts/vagrant-hostsupdater-requires-admin/</link>
+      <pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/vagrant-hostsupdater-requires-admin/</guid>
+      <description>VagrantPress and VVV use the Vagrant::Hostsupdater plugin to allow you to access your development WordPress sites at a friendlier URL (e.g. http://vagrantpress.dev instead of http://localhost:8080). On Windows machines, the plugin updates the file at C:\Windows\System32\drivers\etc\hosts, but modifying this files requires admin access. You must run your shell as an administrator for the plugin to be able to update this file when you vagrant up.
+
+BONUS: I&amp;rsquo;ve seen a lot of people installing Cygwin or Putty just to be able to use Vagrant on Windows (since it requires SSH).</description>
+    </item>
+    
+    <item>
+      <title>User Email Addresses with Go-GitHub</title>
+      <link>https://blachniet.github.io/posts/go-github-user-email/</link>
+      <pubDate>Mon, 08 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/go-github-user-email/</guid>
+      <description>I&amp;rsquo;ve been working on a new web app lately and decided to allow users to sign up and log in with their GitHub account. I&amp;rsquo;m using go-github to interact with the GitHub API and with this library there are two different ways to get a user&amp;rsquo;s email address.
+If you want to get the current user&amp;rsquo;s primary email address, use the Users.ListEmails() method. This method returns all the emails associated with the GitHub user and indicates whether the email address is their Primary address.</description>
+    </item>
+    
+    <item>
+      <title>Flush Async Output Events</title>
+      <link>https://blachniet.github.io/posts/flush-async-output-events/</link>
+      <pubDate>Tue, 19 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/flush-async-output-events/</guid>
+      <description>The System.Diagnostics.Process class provides the options to retrieve all output from an external process after it has completed, or to retrieve events containing the output as the execution occurs. The option to receive asynchronous output events is useful in scenarios where you need to provide user feedback or log the output when timeouts occur.
+When receiving asynchronous output events, you must ensure that the external process has completed when you want to make sure that you get all the output.</description>
+    </item>
+    
+    <item>
+      <title>KENS Structured Logging Slides</title>
+      <link>https://blachniet.github.io/posts/kens-structured-logging-slides/</link>
+      <pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/kens-structured-logging-slides/</guid>
+      <description>Last month I gave a presentation on using Serilog, Elasticsearch and Kibana for logging from an application. You can see the slides from that presentation below. I&amp;rsquo;ve had a lot of success with this trio lately. It has provided a lot of details about what is going on in my application that would have been more difficult to obtain before.
+ </description>
+    </item>
+    
+    <item>
+      <title>Good Habits for Structured Logging with Serilog</title>
+      <link>https://blachniet.github.io/posts/serilog-good-habits/</link>
+      <pubDate>Tue, 03 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/serilog-good-habits/</guid>
+      <description>Below is a collection of good habits I&amp;rsquo;ve identified in my recent experiences with structured logging. The code examples are specific to Serilog, but the ideas can be applied to other structured logging tool sets (my stack of choice for .NET projects is Serilog, Elasticsearch and Kibana). Got your own structured logging practices to contribute? Share them on Twitter!
+EventID When you create you log events, include an EventID property to uniquely identify the event.</description>
+    </item>
+    
+    <item>
+      <title>Structured Logging with Serilog and ELK</title>
+      <link>https://blachniet.github.io/posts/structured-logging-serilog-elk/</link>
+      <pubDate>Mon, 23 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/structured-logging-serilog-elk/</guid>
+      <description>ThoughtWorks recently released their Technology Radar report for January 2015 and structured logging was among the techniques that they strongly suggested that the industry adopt. I&amp;rsquo;ve actually had some exposure to structured logging over the past year and have been very happy with the results. So, I thought I would share my experience.
+My first exposure to structured logging was in early 2014. I was creating a simple Python application to monitor the amount traffic through my modem throughout the day and I was logging events from my application to logentries.</description>
+    </item>
+    
+    <item>
+      <title>Go-YAML Field Names</title>
+      <link>https://blachniet.github.io/posts/go-yaml-field-names/</link>
+      <pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/go-yaml-field-names/</guid>
+      <description>I wasted away a good thirty minutes trying to figure out why I couldn&amp;rsquo;t parse my YAML config file this morning using go-yaml.
+package main import ( &amp;quot;fmt&amp;quot; &amp;quot;log&amp;quot; &amp;quot;gopkg.in/yaml.v2&amp;quot; ) var configText = ` Message: Welcome UpdateInterval: 5 EmailAddresses: - john.doe@example.com - jane.doe@example.com` type Config struct { Message string UpdateInterval int EmailAddresses []string } func main() { var c Config if err := yaml.Unmarshal([]byte(configText), &amp;amp;c); err != nil { log.</description>
+    </item>
+    
+    <item>
+      <title>Assertions in Moq Callbacks</title>
+      <link>https://blachniet.github.io/posts/assertions-in-moq-callbacks/</link>
+      <pubDate>Mon, 09 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/assertions-in-moq-callbacks/</guid>
+      <description>I learned an important lesson today: do not assert inside of Moq callbacks. In the code below, even if the Assert.AreEqual fails, it will not cause the unit test to fail.
+moqObj.Setup(m =&amp;gt; m.Doit(It.IsAny&amp;lt;string&amp;gt;())).Callback&amp;lt;string&amp;gt;((s) =&amp;gt; { Assert.AreEqual(&amp;quot;foo&amp;quot;, s); }); // Insert test code that invokes `Doit` You could use Verify instead, but it&amp;rsquo;s not always ideal, particularly when trying to step through the assertions while debugging tests. Instead, you can take this approach suggested by Thomas Ardal.</description>
+    </item>
+    
+    <item>
+      <title>A New Look for 2015</title>
+      <link>https://blachniet.github.io/posts/a-new-look-for-2015/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/a-new-look-for-2015/</guid>
+      <description>I have wanted to revamp my website for close to a year now. In that time I&amp;rsquo;ve looked into different blogging engines and tried creating new themes, but I didn&amp;rsquo;t settle on a path forward until a couple weeks ago.
+Engine At one point I considered moving to a statically generated site since they were all the rage. I tried out Jekyll and Middleman. I liked both and even wrote up a post on using Zurb&amp;rsquo;s Foundation with Middleman.</description>
+    </item>
+    
+    <item>
+      <title>Google Analytics Site Speed for Small Websites</title>
+      <link>https://blachniet.github.io/posts/google-analytics-site-speed/</link>
+      <pubDate>Sun, 25 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/google-analytics-site-speed/</guid>
+      <description>If you&amp;rsquo;re running a small website and using Google Analytics, your site speed metrics graph might look empty. If you don&amp;rsquo;t get a lot of traffic there will be no samples to measure site performance. This is because the default sampling rate is only 1% (i.e. site speed metrics will only be collected for 1% of your visitors). This is plenty if your running a big site with tons of visitors per day, but if your running a smaller site this isn&amp;rsquo;t going to be good enough.</description>
+    </item>
+    
+    <item>
+      <title>Middleman Foundation</title>
+      <link>https://blachniet.github.io/posts/middleman-foundation/</link>
+      <pubDate>Tue, 29 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/middleman-foundation/</guid>
+      <description>This weekend I decided to try out the static site generator, Middleman. While I was working on converting an existing static site, I decided to take the opportunity to try out Zurb&amp;rsquo;s Foundation and SCSS too. Andrea Moretti created a Middleman template to get you started doing just this, but I hate just using templates without understanding what they are doing. So I decided to start with Middleman&amp;rsquo;s HTML5 Boilerplate template and add the Foundation Bower package to it.</description>
+    </item>
+    
+    <item>
+      <title>Create a Development Version of an Existing WordPress Site</title>
+      <link>https://blachniet.github.io/posts/create-development-version-existing-wordpress-site/</link>
+      <pubDate>Sun, 12 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/create-development-version-existing-wordpress-site/</guid>
+      <description>UPDATE : This article provides a manual approach to creating a development copy of your website. However, I ran across this WPBeginner article which describes a much easier approach using the Duplicator plugin. I would suggest following that guide unless you prefer the manual process.
+Before We Start Here&amp;rsquo;s my environment setup. This post should still be helpful if your setup isn&amp;rsquo;t exactly the same, though.
+ GoDaddy Hosting (production) WAMP (development) phpMyAdmin (production + development)  Files Download WordPress Files Instead of using the WordPress export feature, we&amp;rsquo;re going to grab all site&amp;rsquo;s files.</description>
+    </item>
+    
+    <item>
+      <title>HTML5 Articles and Sections</title>
+      <link>https://blachniet.github.io/posts/html5-articles-sections/</link>
+      <pubDate>Fri, 27 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/html5-articles-sections/</guid>
+      <description>Having trouble deciding whether to use a div, section or article in your HTML5 page? Oli Studholme has a great article explaining how they should be used and provides a very simple method for deciding which to use.
+ To decide which of these three elements is appropriate, choose the first suitable option:
+1. Would the enclosed content would make sense on it’s own in a feed reader? If so use</description>
+    </item>
+    
+    <item>
+      <title>Force Bundling Optimizations</title>
+      <link>https://blachniet.github.io/posts/force-bundling-optimizations/</link>
+      <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/force-bundling-optimizations/</guid>
+      <description>Use the following code in the BundleConfig.cs of your ASP.NET MVC application to force bundling and minification.
+// BundleConfig::RegisterBundles BundleTable.EnableOptimizations = true; Why? Why would you do this? Sometimes bundling and minification causes problems, such as in AngularJS. You will want to find these problems before publishing, so just enable this line every once in a while to make sure everything still works as expected with the optimizations.</description>
+    </item>
+    
+    <item>
+      <title>Read Open File in C#</title>
+      <link>https://blachniet.github.io/posts/read-open-files-c/</link>
+      <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/read-open-files-c/</guid>
+      <description>This post is a summary of this StackOverflow answer by Cheeso.
+To read a file that is currently open (or may be open later) in another process, you must specify a FileShare option. The FileShare flag indicates the modes that other processes are allowed to open the file in.
+using (Stream s = System.IO.File.Open(fullFilePath, FileMode.Open, FileAccess.Read, // I want to open this file for reading only. FileShare.ReadWrite)) // Other processes may specify // FileAccess of read or write.</description>
+    </item>
+    
+    <item>
+      <title>Email Addresses as User Names in ASP.NET Identity</title>
+      <link>https://blachniet.github.io/posts/email-addresses-as-user-names-in-asp-net-identity/</link>
+      <pubDate>Sun, 10 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/email-addresses-as-user-names-in-asp-net-identity/</guid>
+      <description>It&amp;rsquo;s common for web applications to use email addresses instead of user names to distinguish users. However, if you are using ASP.NET Identity, you have probably noticed that it has UserName built into the IUser interface. Since Identity assumes that this is the distinguishing field for the user, it&amp;rsquo;s not crazy to think that it might be a good place to drop the email address. In order to have Identity allow an email address in this field, you will need to write a custom IIdentityValidator.</description>
+    </item>
+    
+    <item>
+      <title>Email Address in MVC 5 Google Authentication</title>
+      <link>https://blachniet.github.io/posts/email-address-in-mvc-5-google-authentication/</link>
+      <pubDate>Sat, 09 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/email-address-in-mvc-5-google-authentication/</guid>
+      <description>I&amp;rsquo;m not proud to admit that I spent hours trying to figure out this very simple problem. The goal was simple: when a user logs into my web application using Google authentication, I want to be able to grab their email address so I can store it as part of their user profile. As expected, this is very simple.
+I&amp;rsquo;m assuming you&amp;rsquo;ve already enabled Google authentication by uncommenting app.UseGoogleAuthentication() in your Startup.</description>
+    </item>
+    
+    <item>
+      <title>Ctrl&#43;Alt&#43;Arrow Flips My Screen</title>
+      <link>https://blachniet.github.io/posts/ctrlaltarrow-flips-my-screen/</link>
+      <pubDate>Sat, 19 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/ctrlaltarrow-flips-my-screen/</guid>
+      <description>If this is happening to you, it could be because you are using the Intel HD Graphics drivers. You&amp;rsquo;ll certainly notice this issue if you use Sublime Text since it uses the same key combination to expand the multiline editing.
+To resolve the issue you can either change Intel&amp;rsquo;s keys or turn them off entirely.
+  Right click on you desktop and select Graphics Properties in the context menu.</description>
+    </item>
+    
+    <item>
+      <title>Windows Automatic Log On</title>
+      <link>https://blachniet.github.io/posts/windows-automatic-log-on/</link>
+      <pubDate>Mon, 23 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/windows-automatic-log-on/</guid>
+      <description>I have a few applications installed on my home server that are user-level applications, meaning that a user must be logged on in order for the application to start. I don&amp;rsquo;t want to have to manually log on ever time my server restarts, so I set up automatic log on for the server. Here&amp;rsquo;s how to do it.
+ Press Windows Key + R to launch the run dialog. Type in netplwiz and click OK.</description>
+    </item>
+    
+    <item>
+      <title>Windows Secure Logon</title>
+      <link>https://blachniet.github.io/posts/windows-secure-logon/</link>
+      <pubDate>Mon, 23 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/windows-secure-logon/</guid>
+      <description>You may have noticed that before you log on to you office PC that you are required to press CTRL+ALT+DELETE before entering you user name and password. Apparently, this is actually a security feature. According to this Windows support article (which this post is based on), [w]hen secure logon is enabled, no other program (such as a virus or spyware) can intercept your user name and password as you enter it.</description>
+    </item>
+    
+    <item>
+      <title>Event Log Email Alerts with PowerShell</title>
+      <link>https://blachniet.github.io/posts/event-log-email-alerts-with-powershell/</link>
+      <pubDate>Sun, 28 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/event-log-email-alerts-with-powershell/</guid>
+      <description>Source on GitHub: https://github.com/blachniet/blachniet-psutils
+Have you ever wanted to send out email alerts when an particular event appears in the Windows Event Log? The Task Scheduler provides the ability to send out emails when an event is logged, but it doesn&amp;rsquo;t allow for SMTP servers that require any sort of authentication. I wanted to send the emails from a Gmail , so created a PowerShell script to handle this.
+The script takes in quite a few required parameters in order to make it more flexible and reusable, so it may seem a little complicated at first.</description>
+    </item>
+    
+    <item>
+      <title>Welcoming WebP</title>
+      <link>https://blachniet.github.io/posts/welcoming-webp/</link>
+      <pubDate>Tue, 23 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/welcoming-webp/</guid>
+      <description>Apparently Google has started using WebP image format with the redesign of the Google Play store. Only Chrome supports the image format at the moment, so if you are using another browser you will get the standard PNG.
+I did a quick test to see how big of a difference it actually makes. I grabbed the icon from the Chrome Browser page on Chrome and then on IE. When downloaded, Chrome&amp;rsquo;s WebP file was 11.</description>
+    </item>
+    
+    <item>
+      <title>Referencing EF Resources in a Specific Assembly</title>
+      <link>https://blachniet.github.io/posts/referencing-ef-resources-in-a-specific-assembly/</link>
+      <pubDate>Sat, 13 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/referencing-ef-resources-in-a-specific-assembly/</guid>
+      <description>This post and sample application demonstrate a possible issue with the way that Entity Framework loads the embedded metadata resources (csdl, msl, ssdl) for the entity model.
+In my application, all assemblies in some specific directory are discovered and loaded at runtime. Think of it as a sort of plugin model. The application allows for multiple versions of the same assembly to be loaded, and each dll follows the [AssemblyName].[Version].dll naming scheme.</description>
+    </item>
+    
+    <item>
+      <title>Host Git Repositories on a Windows Share</title>
+      <link>https://blachniet.github.io/posts/host-git-repositories-on-a-windows-share/</link>
+      <pubDate>Mon, 24 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/host-git-repositories-on-a-windows-share/</guid>
+      <description>I usually use BitBucket or GitHub to host my git repositories, but sometimes I need to host them on some internal network. In this post I will show you how to host those repositories on a Windows share.
+I&amp;rsquo;m going to cover two scenarios: 1) You already have a git repository 2) You are starting fresh with a brand new repository. For both of these tracks I&amp;rsquo;m going to assume that you already have a Windows share set up on some remote computer, and that you have the read and write permissions on that share.</description>
+    </item>
+    
+    <item>
+      <title>746GB in a 3TB Seagate Drive</title>
+      <link>https://blachniet.github.io/posts/746gb-in-a-3tb-seagate-drive/</link>
+      <pubDate>Sun, 02 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/746gb-in-a-3tb-seagate-drive/</guid>
+      <description>So I finally got the time to install my 3TB hard drive in my home server, but ran into some problems. After installing the drive, it showed only 746GB available on the drive. I know I&amp;rsquo;m never going to see 3000GB (because hard drive manufacturers are liars) but this was way below the expected size.
+Luckily, I&amp;rsquo;m not the only one that&amp;rsquo;s run into this issue. My first instict was to go to Disk Management to try to extend the volume, but when I got in there, it only showed the single volume with 746GB, and no unallocated space.</description>
+    </item>
+    
+    <item>
+      <title>TypeScript 0.8.2 on AppHarbor</title>
+      <link>https://blachniet.github.io/posts/typescript-0-8-2-on-appharbor/</link>
+      <pubDate>Sun, 10 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/typescript-0-8-2-on-appharbor/</guid>
+      <description>It doesn&amp;rsquo;t look like AppHarbor is supporting TypeScript yet, which makes sense considering that TypeScript is in preview. So if you want to use AppHarbor to build your TypeScript files as part of its continuous integration/deployment, you&amp;rsquo;ll have to do a little bit of manual work. Before going through the steps below, make sure you have followed the steps in the Compile-on-Save TypeScript post.
+Copy C:\Program Files\MSBuild\Microsoft\Visual Studio\v11.0\TypeScript and C:\Program Files\Microsoft SDKs\TypeScript into some place in your repository.</description>
+    </item>
+    
+    <item>
+      <title>Describing Tables in MSSQL</title>
+      <link>https://blachniet.github.io/posts/describing-tables-in-mssql/</link>
+      <pubDate>Sat, 09 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/describing-tables-in-mssql/</guid>
+      <description>There are 2 particularly good stored procedures in SQL Server for getting information about a particular table.
+sp_columns returns detailed information about each of the columns in the table. Thanks to Vincent Ramdhanie StackOverflow answer
+sp_columns @tablename sp_help returns detailed information about the entire table including the columns and constraints. Thanks to Brannon for his StackOverflow answer
+sp_help @tablename </description>
+    </item>
+    
+    <item>
+      <title>Remove a Passphrase from a SSH Key</title>
+      <link>https://blachniet.github.io/posts/remove-a-passphrase-from-an-ssh-key/</link>
+      <pubDate>Mon, 04 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/remove-a-passphrase-from-an-ssh-key/</guid>
+      <description>If you are using GitHub for Windows with non-GitHub repositories, you may have run into the limitation that you cannot sync using an SSH key with a passphrase. One workaround is to push/pull from the shell, but if don&amp;rsquo;t mind removing the passphrase from the key, use the following command.
+ssh-keygen -p -P &amp;quot;my_old_password&amp;quot; -N “” -f my_key_file_name After you remove the passphrase you should be able to sync from within the GitHub for Windows client.</description>
+    </item>
+    
+    <item>
+      <title>Pass a Connection String to a Generated DbContext</title>
+      <link>https://blachniet.github.io/posts/pass-a-connection-string-to-a-generated-dbcontext/</link>
+      <pubDate>Sun, 03 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/pass-a-connection-string-to-a-generated-dbcontext/</guid>
+      <description>The default DbContext generated with your Entity Data Model has one constructor that takes no arguments. If you need to build the connection string programatically and pass it to the DbContext, you will have to add your own constructor. However, if you do this in the generated file, {ModelName}.Context.cs, you will lose your changes the next time the {ModelName}.Context.tt script is run.
+The solution is to edit the script, {ModelName}.Context.tt. Just add the following code after the code to generate the default constructor (around line 71).</description>
+    </item>
+    
+    <item>
+      <title>Home Network Guide</title>
+      <link>https://blachniet.github.io/posts/home-network-guide/</link>
+      <pubDate>Sat, 02 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/home-network-guide/</guid>
+      <description>Lately I&amp;rsquo;ve been working on improving my home network, so I&amp;rsquo;ve decided to write up some posts on my experience. Most of them will probably be pretty short and reference other sites and tutorials, but I plan on pointing out some of the issues, tips and tricks I&amp;rsquo;ve discovered along the way.
+Here&amp;rsquo;s some of the things that I&amp;rsquo;ll be going over. As I make posts about each of these, I&amp;rsquo;ll place links to them here.</description>
+    </item>
+    
+    <item>
+      <title>Network Naming Schemes</title>
+      <link>https://blachniet.github.io/posts/network-naming-schemes/</link>
+      <pubDate>Sat, 02 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/network-naming-schemes/</guid>
+      <description>One of the first things you should do when setting up your home network is decide on a naming scheme. Have fun with this part. You will need to pick a workgroup name as well as names for each of your computers/devices.
+I like the TV show South Park, so I decided to base my network device names on South Park characters. My workgroup name is SOUTHPARK, my main desktop is named STAN, my wife&amp;rsquo;s computer is named WENDY, and my server is named BUTTERS.</description>
+    </item>
+    
+    <item>
+      <title>How Not To Restart A ClickOnce Application</title>
+      <link>https://blachniet.github.io/posts/how-not-to-restart-a-clickonce-application/</link>
+      <pubDate>Sat, 20 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/how-not-to-restart-a-clickonce-application/</guid>
+      <description>Normally if you need to restart a WPF application programatically, you would use the following code:
+private void Restart() { System.Diagnostics.Process.Start( Application.ResourceAssembly.Location); Application.Current.Shutdown(); } If you have a ClickOnce WPF application, you do not want to do this. In order to understand why, you need to understand how a ClickOnce application is normally launched.
+The shortcut you click on in the Start menu is not a normal shortcut to an executable.</description>
+    </item>
+    
+    <item>
+      <title>Borderless WPF Window</title>
+      <link>https://blachniet.github.io/posts/borderless-wpf-window/</link>
+      <pubDate>Sat, 30 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/borderless-wpf-window/</guid>
+      <description>I&amp;rsquo;ve put together a very simple borderless WPF window that complements Microsoft&amp;rsquo;s Metro style quite well. I won&amp;rsquo;t go into a lot of detail here, since the code does most of the talking, but I will go over the important parts here. If you want to skip right to the source code, you can find it over at GitHub: http://bit.ly/N7afKQ
+Starting with a fresh window set and the window properties WindowStyle=&amp;quot;None&amp;quot;, AllowsTransparency=&amp;quot;True&amp;quot;, and ResizeMode=&amp;quot;CanResizeWithGrip&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title>Diving Into World Construction Kit</title>
+      <link>https://blachniet.github.io/posts/diving-into-world-construction-kit/</link>
+      <pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/diving-into-world-construction-kit/</guid>
+      <description>In the game that I’ve been working on recently I’ve been using this amazing little library called World Construction Kit (WCK). This framework has saved me tons of time and made setting up Box2D worlds and bodies really easy. Emanuele Feronato wrote up a nice getting started tutorial and there are 2 very useful pages on the GitHub Wiki:
+ Box2d Flash Alchemy Port + World Construction Kit –Feronato World Construction Kit –github Wiki Box2D Flash Alchemy Port –github Wiki This is great material for getting started.</description>
+    </item>
+    
+    <item>
+      <title>Flare3D &amp; FlashDevelop Setup</title>
+      <link>https://blachniet.github.io/posts/flare3d-flashdevelop/</link>
+      <pubDate>Sun, 09 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/flare3d-flashdevelop/</guid>
+      <description>This post is a simple walkthrough for getting the latest Flare3D pre release (2.0.42) and the latest FlashDevelop (4.0.0 RC1) working together nicely. This post builds on an older how-to done by the Flare3D team which can be found here.
+  Get the latest FlashDevelop  Download FlashDevelop 4.0.0 RC1 here. Run the installer.  Make sure that you install Flex 4.5 SDK as part of the FlashDevelop installation.</description>
+    </item>
+    
+    <item>
+      <title>Flash Data Storage Services : Part 2</title>
+      <link>https://blachniet.github.io/posts/flash-data-storage-services-part-2/</link>
+      <pubDate>Tue, 06 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/flash-data-storage-services-part-2/</guid>
+      <description>In my last post we set up our EasyPHP server and created a MySQL database for our event manager. In this post we are going to create the Amfphp service to create, delete, and get events from the database. We are also going to create an ActionScript 3 class to talk to the PHP service.
+Creating the Service Your event service will be contained within a single PHP file in the Amfphp\Services\ directory.</description>
+    </item>
+    
+    <item>
+      <title>Data Storage Services for Flash Applications : Part 1</title>
+      <link>https://blachniet.github.io/posts/flash-data-storage-services-part-1/</link>
+      <pubDate>Tue, 30 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/flash-data-storage-services-part-1/</guid>
+      <description>A core need of many online Flash applications is to store data in an online database. Supporting this need requires the integration of a few different technologies. The solution that I will be walking you through in this and the next tutorial post will integrate AS3, PHP, MySQL, and amfphp. This post will contain the boring, yet necessary, setup steps. This includes installing all tools and frameworks as well as creating the MySQL database to store your application data.</description>
+    </item>
+    
+    <item>
+      <title>Hello Android AIR World</title>
+      <link>https://blachniet.github.io/posts/hello-android-air-world/</link>
+      <pubDate>Sat, 20 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/hello-android-air-world/</guid>
+      <description>A while back I wrote my first &amp;lsquo;Hello World&amp;rsquo; Android AIR application but never posted anything about it. Since I have this shiny new site, I figured I’d write up something real quick. If you know me at all, it would come as no surprise that I have not dropped the $700 or so on Flash CS5.5. That means that I did this application, a very simple Pong game, with only FlashDevelop.</description>
+    </item>
+    
+    <item>
+      <title>Partial Views with Unobtrusive AJAX</title>
+      <link>https://blachniet.github.io/posts/partial-views-with-unobtrusive-ajax/</link>
+      <pubDate>Wed, 10 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/partial-views-with-unobtrusive-ajax/</guid>
+      <description>In my recent exploration of web development in ASP.NET, I found what I assume to be a fairly common need to have part of a view/page update without the entire page updating. In my particular case, I wanted to have a page that listed items but also provided a form that allowed you to add an item. When an item was added, the list of items would be updated without having to regenerate the entire page.</description>
+    </item>
+    
+    <item>
+      <title>Mission-less Statement</title>
+      <link>https://blachniet.github.io/posts/mission-less-statement/</link>
+      <pubDate>Tue, 09 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/mission-less-statement/</guid>
+      <description>As the title suggests, the goal of this site is not entirely ironed out. I&amp;rsquo;m actually trying to think of goals as I write this now, so lets start out with a simple introduction. I am a Computer Science graduate from Virginia Tech, class of 2009, with a minor in Mathematics. Since graduation I have worked on client-side gaming machines at Video Gaming Technologies, Inc. near Charlottesville, VA. While at VGT I have had the opportunity to expand my technical experience in both C# and C++, as well as get my feet wet in a few other languages including Python and ActionScript.</description>
+    </item>
+    
+  </channel>
+</rss>

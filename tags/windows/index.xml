@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>windows on Brian Lachniet</title>
+    <link>https://blachniet.github.io/tags/windows/</link>
+    <description>Recent content in windows on Brian Lachniet</description>
+    <image>
+      <url>https://blachniet.github.io/papermod-cover.png</url>
+      <link>https://blachniet.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Oct 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ctrl&#43;Alt&#43;Arrow Flips My Screen</title>
+      <link>https://blachniet.github.io/posts/ctrlaltarrow-flips-my-screen/</link>
+      <pubDate>Sat, 19 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/ctrlaltarrow-flips-my-screen/</guid>
+      <description>If this is happening to you, it could be because you are using the Intel HD Graphics drivers. You&amp;rsquo;ll certainly notice this issue if you use Sublime Text since it uses the same key combination to expand the multiline editing.
+To resolve the issue you can either change Intel&amp;rsquo;s keys or turn them off entirely.
+  Right click on you desktop and select Graphics Properties in the context menu.</description>
+    </item>
+    
+    <item>
+      <title>Windows Automatic Log On</title>
+      <link>https://blachniet.github.io/posts/windows-automatic-log-on/</link>
+      <pubDate>Mon, 23 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/windows-automatic-log-on/</guid>
+      <description>I have a few applications installed on my home server that are user-level applications, meaning that a user must be logged on in order for the application to start. I don&amp;rsquo;t want to have to manually log on ever time my server restarts, so I set up automatic log on for the server. Here&amp;rsquo;s how to do it.
+ Press Windows Key + R to launch the run dialog. Type in netplwiz and click OK.</description>
+    </item>
+    
+    <item>
+      <title>Windows Secure Logon</title>
+      <link>https://blachniet.github.io/posts/windows-secure-logon/</link>
+      <pubDate>Mon, 23 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/windows-secure-logon/</guid>
+      <description>You may have noticed that before you log on to you office PC that you are required to press CTRL+ALT+DELETE before entering you user name and password. Apparently, this is actually a security feature. According to this Windows support article (which this post is based on), [w]hen secure logon is enabled, no other program (such as a virus or spyware) can intercept your user name and password as you enter it.</description>
+    </item>
+    
+    <item>
+      <title>Host Git Repositories on a Windows Share</title>
+      <link>https://blachniet.github.io/posts/host-git-repositories-on-a-windows-share/</link>
+      <pubDate>Mon, 24 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/host-git-repositories-on-a-windows-share/</guid>
+      <description>I usually use BitBucket or GitHub to host my git repositories, but sometimes I need to host them on some internal network. In this post I will show you how to host those repositories on a Windows share.
+I&amp;rsquo;m going to cover two scenarios: 1) You already have a git repository 2) You are starting fresh with a brand new repository. For both of these tracks I&amp;rsquo;m going to assume that you already have a Windows share set up on some remote computer, and that you have the read and write permissions on that share.</description>
+    </item>
+    
+  </channel>
+</rss>

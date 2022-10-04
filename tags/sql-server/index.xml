@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>sql-server on Brian Lachniet</title>
+    <link>https://blachniet.github.io/tags/sql-server/</link>
+    <description>Recent content in sql-server on Brian Lachniet</description>
+    <image>
+      <url>https://blachniet.github.io/papermod-cover.png</url>
+      <link>https://blachniet.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Feb 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.github.io/tags/sql-server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Describing Tables in MSSQL</title>
+      <link>https://blachniet.github.io/posts/describing-tables-in-mssql/</link>
+      <pubDate>Sat, 09 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/describing-tables-in-mssql/</guid>
+      <description>There are 2 particularly good stored procedures in SQL Server for getting information about a particular table.
+sp_columns returns detailed information about each of the columns in the table. Thanks to Vincent Ramdhanie StackOverflow answer
+sp_columns @tablename sp_help returns detailed information about the entire table including the columns and constraints. Thanks to Brannon for his StackOverflow answer
+sp_help @tablename </description>
+    </item>
+    
+  </channel>
+</rss>

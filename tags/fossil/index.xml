@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>fossil on Brian Lachniet</title>
+    <link>https://blachniet.github.io/tags/fossil/</link>
+    <description>Recent content in fossil on Brian Lachniet</description>
+    <image>
+      <url>https://blachniet.github.io/papermod-cover.png</url>
+      <link>https://blachniet.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.github.io/tags/fossil/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use a graphical diff tool with Fossil</title>
+      <link>https://blachniet.github.io/posts/use-a-graphical-diff-tool-with-fossil/</link>
+      <pubDate>Sat, 18 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/use-a-graphical-diff-tool-with-fossil/</guid>
+      <description>You can configure Fossil&amp;rsquo;s gdiff command to launch your favorite graphical diff tool. Below are examples configuring some popular diff tools.
+All the examples below include the --global option. If you want to configure this setting only for the current repository, omit that option.
+Beyond Compare:
+$ fossil settings --global gdiff &amp;#39;bcomp&amp;#39; Git:
+$ fossil settings --global gdiff &amp;#39;code --diff --wait&amp;#39; vimdiff:
+$ fossil settings --global gdiff &amp;#39;vimdiff&amp;#39; Visual Studio Code:</description>
+    </item>
+    
+    <item>
+      <title>Resolve Fossil login failures after changing your password</title>
+      <link>https://blachniet.github.io/posts/resolve-fossil-login-failures-after-changing-your-password/</link>
+      <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/resolve-fossil-login-failures-after-changing-your-password/</guid>
+      <description>After changing your password on a remote Fossil repository, you will receive login failures when trying to sync your local repository.
+$ fossil sync Sync with https://blachniet@example.com/test Round-trips: 1 Artifacts sent: 0 received: 0 Error: login failed Round-trips: 1 Artifacts sent: 0 received: 0 Sync done, sent: 420 received: 285 ip: 192.168.0.10 $ fossil commit Autosync: https://blachniet@example.com/test Round-trips: 1 Artifacts sent: 0 received: 0 Error: login failed Round-trips: 1 Artifacts sent: 0 received: 0 Pull done, sent: 446 received: 287 ip: 192.</description>
+    </item>
+    
+  </channel>
+</rss>

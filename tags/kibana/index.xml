@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>kibana on Brian Lachniet</title>
+    <link>https://blachniet.github.io/tags/kibana/</link>
+    <description>Recent content in kibana on Brian Lachniet</description>
+    <image>
+      <url>https://blachniet.github.io/papermod-cover.png</url>
+      <link>https://blachniet.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 May 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.github.io/tags/kibana/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KENS Structured Logging Slides</title>
+      <link>https://blachniet.github.io/posts/kens-structured-logging-slides/</link>
+      <pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/kens-structured-logging-slides/</guid>
+      <description>Last month I gave a presentation on using Serilog, Elasticsearch and Kibana for logging from an application. You can see the slides from that presentation below. I&amp;rsquo;ve had a lot of success with this trio lately. It has provided a lot of details about what is going on in my application that would have been more difficult to obtain before.
+ </description>
+    </item>
+    
+    <item>
+      <title>Structured Logging with Serilog and ELK</title>
+      <link>https://blachniet.github.io/posts/structured-logging-serilog-elk/</link>
+      <pubDate>Mon, 23 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/structured-logging-serilog-elk/</guid>
+      <description>ThoughtWorks recently released their Technology Radar report for January 2015 and structured logging was among the techniques that they strongly suggested that the industry adopt. I&amp;rsquo;ve actually had some exposure to structured logging over the past year and have been very happy with the results. So, I thought I would share my experience.
+My first exposure to structured logging was in early 2014. I was creating a simple Python application to monitor the amount traffic through my modem throughout the day and I was logging events from my application to logentries.</description>
+    </item>
+    
+  </channel>
+</rss>

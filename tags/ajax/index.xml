@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ajax on Brian Lachniet</title>
+    <link>https://blachniet.github.io/tags/ajax/</link>
+    <description>Recent content in ajax on Brian Lachniet</description>
+    <image>
+      <url>https://blachniet.github.io/papermod-cover.png</url>
+      <link>https://blachniet.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Aug 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.github.io/tags/ajax/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Partial Views with Unobtrusive AJAX</title>
+      <link>https://blachniet.github.io/posts/partial-views-with-unobtrusive-ajax/</link>
+      <pubDate>Wed, 10 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/partial-views-with-unobtrusive-ajax/</guid>
+      <description>In my recent exploration of web development in ASP.NET, I found what I assume to be a fairly common need to have part of a view/page update without the entire page updating. In my particular case, I wanted to have a page that listed items but also provided a form that allowed you to add an item. When an item was added, the list of items would be updated without having to regenerate the entire page.</description>
+    </item>
+    
+  </channel>
+</rss>

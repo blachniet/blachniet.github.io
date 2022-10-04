@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>gmail on Brian Lachniet</title>
+    <link>https://blachniet.github.io/tags/gmail/</link>
+    <description>Recent content in gmail on Brian Lachniet</description>
+    <image>
+      <url>https://blachniet.github.io/papermod-cover.png</url>
+      <link>https://blachniet.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jul 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.github.io/tags/gmail/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Event Log Email Alerts with PowerShell</title>
+      <link>https://blachniet.github.io/posts/event-log-email-alerts-with-powershell/</link>
+      <pubDate>Sun, 28 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/event-log-email-alerts-with-powershell/</guid>
+      <description>Source on GitHub: https://github.com/blachniet/blachniet-psutils
+Have you ever wanted to send out email alerts when an particular event appears in the Windows Event Log? The Task Scheduler provides the ability to send out emails when an event is logged, but it doesn&amp;rsquo;t allow for SMTP servers that require any sort of authentication. I wanted to send the emails from a Gmail , so created a PowerShell script to handle this.
+The script takes in quite a few required parameters in order to make it more flexible and reusable, so it may seem a little complicated at first.</description>
+    </item>
+    
+  </channel>
+</rss>

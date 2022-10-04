@@ -1,1 +1,654 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on blachniet.github.io</title><link>https://blachniet.github.io/tags/</link><description>Recent content in Tags on blachniet.github.io</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://blachniet.github.io/tags/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Brian Lachniet</title>
+    <link>https://blachniet.github.io/tags/</link>
+    <description>Recent content in Tags on Brian Lachniet</description>
+    <image>
+      <url>https://blachniet.github.io/papermod-cover.png</url>
+      <link>https://blachniet.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>lets-encrypt</title>
+      <link>https://blachniet.github.io/tags/lets-encrypt/</link>
+      <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/lets-encrypt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fossil</title>
+      <link>https://blachniet.github.io/tags/fossil/</link>
+      <pubDate>Sat, 18 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/fossil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>homebrew</title>
+      <link>https://blachniet.github.io/tags/homebrew/</link>
+      <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/homebrew/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>macos</title>
+      <link>https://blachniet.github.io/tags/macos/</link>
+      <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>https://blachniet.github.io/tags/go/</link>
+      <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google-cloud-platform</title>
+      <link>https://blachniet.github.io/tags/google-cloud-platform/</link>
+      <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/google-cloud-platform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://blachniet.github.io/tags/linux/</link>
+      <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>logging</title>
+      <link>https://blachniet.github.io/tags/logging/</link>
+      <pubDate>Sat, 12 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/logging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vagrant</title>
+      <link>https://blachniet.github.io/tags/vagrant/</link>
+      <pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/vagrant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://blachniet.github.io/tags/github/</link>
+      <pubDate>Mon, 08 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>c</title>
+      <link>https://blachniet.github.io/tags/c/</link>
+      <pubDate>Tue, 19 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>elasticsearch</title>
+      <link>https://blachniet.github.io/tags/elasticsearch/</link>
+      <pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/elasticsearch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kibana</title>
+      <link>https://blachniet.github.io/tags/kibana/</link>
+      <pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/kibana/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>serilog</title>
+      <link>https://blachniet.github.io/tags/serilog/</link>
+      <pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/serilog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yaml</title>
+      <link>https://blachniet.github.io/tags/yaml/</link>
+      <pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/yaml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google-analytics</title>
+      <link>https://blachniet.github.io/tags/google-analytics/</link>
+      <pubDate>Sun, 25 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/google-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>middleman</title>
+      <link>https://blachniet.github.io/tags/middleman/</link>
+      <pubDate>Tue, 29 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/middleman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>zurb-foundation</title>
+      <link>https://blachniet.github.io/tags/zurb-foundation/</link>
+      <pubDate>Tue, 29 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/zurb-foundation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wordpress</title>
+      <link>https://blachniet.github.io/tags/wordpress/</link>
+      <pubDate>Sun, 12 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/wordpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>html</title>
+      <link>https://blachniet.github.io/tags/html/</link>
+      <pubDate>Fri, 27 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>html5</title>
+      <link>https://blachniet.github.io/tags/html5/</link>
+      <pubDate>Fri, 27 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/html5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>angularjs</title>
+      <link>https://blachniet.github.io/tags/angularjs/</link>
+      <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/angularjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>asp-net-mvc</title>
+      <link>https://blachniet.github.io/tags/asp-net-mvc/</link>
+      <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/asp-net-mvc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>asp-net</title>
+      <link>https://blachniet.github.io/tags/asp-net/</link>
+      <pubDate>Sun, 10 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/asp-net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>asp-net-identity</title>
+      <link>https://blachniet.github.io/tags/asp-net-identity/</link>
+      <pubDate>Sun, 10 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/asp-net-identity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>openid</title>
+      <link>https://blachniet.github.io/tags/openid/</link>
+      <pubDate>Sat, 09 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/openid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>intel</title>
+      <link>https://blachniet.github.io/tags/intel/</link>
+      <pubDate>Sat, 19 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/intel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sublime-text</title>
+      <link>https://blachniet.github.io/tags/sublime-text/</link>
+      <pubDate>Sat, 19 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/sublime-text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>https://blachniet.github.io/tags/windows/</link>
+      <pubDate>Sat, 19 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows-8</title>
+      <link>https://blachniet.github.io/tags/windows-8/</link>
+      <pubDate>Sat, 19 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/windows-8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://blachniet.github.io/tags/security/</link>
+      <pubDate>Mon, 23 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gmail</title>
+      <link>https://blachniet.github.io/tags/gmail/</link>
+      <pubDate>Sun, 28 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/gmail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>powershell</title>
+      <link>https://blachniet.github.io/tags/powershell/</link>
+      <pubDate>Sun, 28 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/powershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>smtp</title>
+      <link>https://blachniet.github.io/tags/smtp/</link>
+      <pubDate>Sun, 28 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/smtp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>https://blachniet.github.io/tags/javascript/</link>
+      <pubDate>Tue, 23 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>webp</title>
+      <link>https://blachniet.github.io/tags/webp/</link>
+      <pubDate>Tue, 23 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/webp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>entity-framework</title>
+      <link>https://blachniet.github.io/tags/entity-framework/</link>
+      <pubDate>Sat, 13 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/entity-framework/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://blachniet.github.io/tags/git/</link>
+      <pubDate>Mon, 24 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hardware</title>
+      <link>https://blachniet.github.io/tags/hardware/</link>
+      <pubDate>Sun, 02 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>appharbor</title>
+      <link>https://blachniet.github.io/tags/appharbor/</link>
+      <pubDate>Sun, 10 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/appharbor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>msbuild</title>
+      <link>https://blachniet.github.io/tags/msbuild/</link>
+      <pubDate>Sun, 10 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/msbuild/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>typescript</title>
+      <link>https://blachniet.github.io/tags/typescript/</link>
+      <pubDate>Sun, 10 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/typescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mssql</title>
+      <link>https://blachniet.github.io/tags/mssql/</link>
+      <pubDate>Sat, 09 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/mssql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sql</title>
+      <link>https://blachniet.github.io/tags/sql/</link>
+      <pubDate>Sat, 09 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sql-server</title>
+      <link>https://blachniet.github.io/tags/sql-server/</link>
+      <pubDate>Sat, 09 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/sql-server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github-for-windows</title>
+      <link>https://blachniet.github.io/tags/github-for-windows/</link>
+      <pubDate>Mon, 04 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/github-for-windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssh</title>
+      <link>https://blachniet.github.io/tags/ssh/</link>
+      <pubDate>Mon, 04 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dbcontext</title>
+      <link>https://blachniet.github.io/tags/dbcontext/</link>
+      <pubDate>Sun, 03 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/dbcontext/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>visual-studio-2012</title>
+      <link>https://blachniet.github.io/tags/visual-studio-2012/</link>
+      <pubDate>Sun, 03 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/visual-studio-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>clickonce</title>
+      <link>https://blachniet.github.io/tags/clickonce/</link>
+      <pubDate>Sat, 20 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/clickonce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wpf</title>
+      <link>https://blachniet.github.io/tags/wpf/</link>
+      <pubDate>Sat, 20 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/wpf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mvvm</title>
+      <link>https://blachniet.github.io/tags/mvvm/</link>
+      <pubDate>Sat, 30 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/mvvm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xaml</title>
+      <link>https://blachniet.github.io/tags/xaml/</link>
+      <pubDate>Sat, 30 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/xaml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>actionscript</title>
+      <link>https://blachniet.github.io/tags/actionscript/</link>
+      <pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/actionscript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>box2d</title>
+      <link>https://blachniet.github.io/tags/box2d/</link>
+      <pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/box2d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wck</title>
+      <link>https://blachniet.github.io/tags/wck/</link>
+      <pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/wck/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>flare3d</title>
+      <link>https://blachniet.github.io/tags/flare3d/</link>
+      <pubDate>Sun, 09 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/flare3d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>flashdevelop</title>
+      <link>https://blachniet.github.io/tags/flashdevelop/</link>
+      <pubDate>Sun, 09 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/flashdevelop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
+      <link>https://blachniet.github.io/tags/tutorial/</link>
+      <pubDate>Sun, 09 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>amfphp</title>
+      <link>https://blachniet.github.io/tags/amfphp/</link>
+      <pubDate>Tue, 06 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/amfphp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>easyphp</title>
+      <link>https://blachniet.github.io/tags/easyphp/</link>
+      <pubDate>Tue, 06 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/easyphp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mysql</title>
+      <link>https://blachniet.github.io/tags/mysql/</link>
+      <pubDate>Tue, 06 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>php</title>
+      <link>https://blachniet.github.io/tags/php/</link>
+      <pubDate>Tue, 06 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software-development</title>
+      <link>https://blachniet.github.io/tags/software-development/</link>
+      <pubDate>Tue, 06 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/software-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>phpmyadmin</title>
+      <link>https://blachniet.github.io/tags/phpmyadmin/</link>
+      <pubDate>Tue, 30 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/phpmyadmin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>air</title>
+      <link>https://blachniet.github.io/tags/air/</link>
+      <pubDate>Sat, 20 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/air/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>android</title>
+      <link>https://blachniet.github.io/tags/android/</link>
+      <pubDate>Sat, 20 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mobile</title>
+      <link>https://blachniet.github.io/tags/mobile/</link>
+      <pubDate>Sat, 20 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ajax</title>
+      <link>https://blachniet.github.io/tags/ajax/</link>
+      <pubDate>Wed, 10 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/ajax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mvc-3</title>
+      <link>https://blachniet.github.io/tags/mvc-3/</link>
+      <pubDate>Wed, 10 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/mvc-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>razor</title>
+      <link>https://blachniet.github.io/tags/razor/</link>
+      <pubDate>Wed, 10 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/tags/razor/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

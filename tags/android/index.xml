@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>android on Brian Lachniet</title>
+    <link>https://blachniet.github.io/tags/android/</link>
+    <description>Recent content in android on Brian Lachniet</description>
+    <image>
+      <url>https://blachniet.github.io/papermod-cover.png</url>
+      <link>https://blachniet.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Aug 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello Android AIR World</title>
+      <link>https://blachniet.github.io/posts/hello-android-air-world/</link>
+      <pubDate>Sat, 20 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/hello-android-air-world/</guid>
+      <description>A while back I wrote my first &amp;lsquo;Hello World&amp;rsquo; Android AIR application but never posted anything about it. Since I have this shiny new site, I figured I’d write up something real quick. If you know me at all, it would come as no surprise that I have not dropped the $700 or so on Flash CS5.5. That means that I did this application, a very simple Pong game, with only FlashDevelop.</description>
+    </item>
+    
+  </channel>
+</rss>

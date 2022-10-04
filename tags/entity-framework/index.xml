@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>entity-framework on Brian Lachniet</title>
+    <link>https://blachniet.github.io/tags/entity-framework/</link>
+    <description>Recent content in entity-framework on Brian Lachniet</description>
+    <image>
+      <url>https://blachniet.github.io/papermod-cover.png</url>
+      <link>https://blachniet.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Jul 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.github.io/tags/entity-framework/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Referencing EF Resources in a Specific Assembly</title>
+      <link>https://blachniet.github.io/posts/referencing-ef-resources-in-a-specific-assembly/</link>
+      <pubDate>Sat, 13 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/referencing-ef-resources-in-a-specific-assembly/</guid>
+      <description>This post and sample application demonstrate a possible issue with the way that Entity Framework loads the embedded metadata resources (csdl, msl, ssdl) for the entity model.
+In my application, all assemblies in some specific directory are discovered and loaded at runtime. Think of it as a sort of plugin model. The application allows for multiple versions of the same assembly to be loaded, and each dll follows the [AssemblyName].[Version].dll naming scheme.</description>
+    </item>
+    
+    <item>
+      <title>Pass a Connection String to a Generated DbContext</title>
+      <link>https://blachniet.github.io/posts/pass-a-connection-string-to-a-generated-dbcontext/</link>
+      <pubDate>Sun, 03 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/pass-a-connection-string-to-a-generated-dbcontext/</guid>
+      <description>The default DbContext generated with your Entity Data Model has one constructor that takes no arguments. If you need to build the connection string programatically and pass it to the DbContext, you will have to add your own constructor. However, if you do this in the generated file, {ModelName}.Context.cs, you will lose your changes the next time the {ModelName}.Context.tt script is run.
+The solution is to edit the script, {ModelName}.Context.tt. Just add the following code after the code to generate the default constructor (around line 71).</description>
+    </item>
+    
+  </channel>
+</rss>

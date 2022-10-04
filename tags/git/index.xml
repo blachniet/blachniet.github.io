@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>git on Brian Lachniet</title>
+    <link>https://blachniet.github.io/tags/git/</link>
+    <description>Recent content in git on Brian Lachniet</description>
+    <image>
+      <url>https://blachniet.github.io/papermod-cover.png</url>
+      <link>https://blachniet.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Jun 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Host Git Repositories on a Windows Share</title>
+      <link>https://blachniet.github.io/posts/host-git-repositories-on-a-windows-share/</link>
+      <pubDate>Mon, 24 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/host-git-repositories-on-a-windows-share/</guid>
+      <description>I usually use BitBucket or GitHub to host my git repositories, but sometimes I need to host them on some internal network. In this post I will show you how to host those repositories on a Windows share.
+I&amp;rsquo;m going to cover two scenarios: 1) You already have a git repository 2) You are starting fresh with a brand new repository. For both of these tracks I&amp;rsquo;m going to assume that you already have a Windows share set up on some remote computer, and that you have the read and write permissions on that share.</description>
+    </item>
+    
+    <item>
+      <title>Remove a Passphrase from a SSH Key</title>
+      <link>https://blachniet.github.io/posts/remove-a-passphrase-from-an-ssh-key/</link>
+      <pubDate>Mon, 04 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/remove-a-passphrase-from-an-ssh-key/</guid>
+      <description>If you are using GitHub for Windows with non-GitHub repositories, you may have run into the limitation that you cannot sync using an SSH key with a passphrase. One workaround is to push/pull from the shell, but if don&amp;rsquo;t mind removing the passphrase from the key, use the following command.
+ssh-keygen -p -P &amp;quot;my_old_password&amp;quot; -N “” -f my_key_file_name After you remove the passphrase you should be able to sync from within the GitHub for Windows client.</description>
+    </item>
+    
+  </channel>
+</rss>

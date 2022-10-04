@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>webp on Brian Lachniet</title>
+    <link>https://blachniet.github.io/tags/webp/</link>
+    <description>Recent content in webp on Brian Lachniet</description>
+    <image>
+      <url>https://blachniet.github.io/papermod-cover.png</url>
+      <link>https://blachniet.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Jul 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.github.io/tags/webp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcoming WebP</title>
+      <link>https://blachniet.github.io/posts/welcoming-webp/</link>
+      <pubDate>Tue, 23 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/welcoming-webp/</guid>
+      <description>Apparently Google has started using WebP image format with the redesign of the Google Play store. Only Chrome supports the image format at the moment, so if you are using another browser you will get the standard PNG.
+I did a quick test to see how big of a difference it actually makes. I grabbed the icon from the Chrome Browser page on Chrome and then on IE. When downloaded, Chrome&amp;rsquo;s WebP file was 11.</description>
+    </item>
+    
+  </channel>
+</rss>

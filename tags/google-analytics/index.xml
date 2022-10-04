@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>google-analytics on Brian Lachniet</title>
+    <link>https://blachniet.github.io/tags/google-analytics/</link>
+    <description>Recent content in google-analytics on Brian Lachniet</description>
+    <image>
+      <url>https://blachniet.github.io/papermod-cover.png</url>
+      <link>https://blachniet.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Jan 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.github.io/tags/google-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Analytics Site Speed for Small Websites</title>
+      <link>https://blachniet.github.io/posts/google-analytics-site-speed/</link>
+      <pubDate>Sun, 25 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/google-analytics-site-speed/</guid>
+      <description>If you&amp;rsquo;re running a small website and using Google Analytics, your site speed metrics graph might look empty. If you don&amp;rsquo;t get a lot of traffic there will be no samples to measure site performance. This is because the default sampling rate is only 1% (i.e. site speed metrics will only be collected for 1% of your visitors). This is plenty if your running a big site with tons of visitors per day, but if your running a smaller site this isn&amp;rsquo;t going to be good enough.</description>
+    </item>
+    
+  </channel>
+</rss>
