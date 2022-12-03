@@ -1,5 +1,5 @@
 ---
-title: "Backup macOS Photos Library with Restic"
+title: "Back up macOS Photos with Restic"
 date: 2022-12-03T10:53:56-05:00
 tags:
 - macos
