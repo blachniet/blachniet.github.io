@@ -17,14 +17,14 @@ This weekend I decided to try out the static site generator, [Middleman](http://
 
 Initialize the project with the HTML5 Boilerplate.
 
-```
+```sh
 > middleman init middleman-foundation --template=html5
 > cd middleman-foundation
 ```
 
 Create a `.bowerrc` file to specify a the install location for bower components
 
-```
+```json
 // .bowerrc
 {
     "directory" : "source/bower_components"
@@ -33,19 +33,19 @@ Create a `.bowerrc` file to specify a the install location for bower components
 
 Initialize bower for the project.
 
-```
+```sh
 > bower init
 ```
 
 Install [Foundation](http://foundation.zurb.com).
 
-```
+```sh
 > bower install foundation --save
 ```
 
 Add the Compass configuration to `config.rb`.
 
-```
+```ruby
 # config.rb
 compass_config do |config|
   # Require any additional compass plugins here.
@@ -57,7 +57,7 @@ end
 
 Add the bower directory to the Sprockets asset path in the `config.rb`.
 
-```
+```ruby
 # config.rb
 # Add bower's directory to sprockets asset path
 after_configuration do
@@ -70,7 +70,7 @@ end
 
 Delete `source/css/main.css` and `source/css/normalize.css`. In their place add a new file, `all.css.scss`.
 
-```
+```scss
 # all.css.scss
 @import "normalize.scss";
 @import "foundation.scss";
@@ -78,7 +78,7 @@ Delete `source/css/main.css` and `source/css/normalize.css`. In their place add 
 
 Replace the stylesheet references in the `<head>` of `source/layouts/layout.erb` with the `all.css.scss`.
 
-```
+```html
 <!-- source/layouts/layouts.erb -->
 <%= stylesheet_link_tag "all" %>
 ```
@@ -87,7 +87,7 @@ Replace the stylesheet references in the `<head>` of `source/layouts/layout.erb`
 
 Create a `source/js/modernizr.js` with the following content to include the modernizr source from the installed bower components.
 
-```
+```js
 // source/js/modernizr.js
 //= require modernizr/modernizr
 ```
@@ -98,7 +98,7 @@ Then replace the modernizr reference in `layouts.erb`'s head with `<%= javascrip
 
 Delete all files (except the new `modernizr.js`) in `source/js/`, and create `all.js` with the following contents to include necessary javascripts from the bower components.
 
-```
+```js
 // source/js/all.js
 //= require jquery/dist/jquery
 //= require foundation/js/foundation.min
@@ -106,7 +106,7 @@ Delete all files (except the new `modernizr.js`) in `source/js/`, and create `al
 
 Then, update `layouts.erb` to reference your new `all.js` and remove the old javascript references.
 
-```
+```html
 <!-- source/layouts/layout.erb -->
 <%= javascript_include_tag  "all" %>
 ```

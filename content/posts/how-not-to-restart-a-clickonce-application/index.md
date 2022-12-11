@@ -14,7 +14,7 @@ blachnietWordPressExport: true
 
 Normally if you need to restart a WPF application programatically, you would use the following code:
 
-```
+```csharp
 private void Restart() 
 {
     System.Diagnostics.Process.Start(
@@ -33,7 +33,7 @@ According to Rob Relyea's post, [Application.Restart() for WPF](http://robrelyea
 
 **UPDATE:** I've verified that the following code does work properly. Sadly, you will need a reference to the `System.Windows.Forms.dll`.
 
-```
+```csharp
 private void Restart()
 { 
     // from System.Windows.Forms.dll

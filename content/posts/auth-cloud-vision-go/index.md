@@ -28,7 +28,7 @@ Authenticating with the Cloud Vision API involves more setup than the Cloud Data
 3. Copy the key JSON file to your Compute Engine instance
 4. When creating the Vision API client in Go, provide the service account file with `option.WithServiceAccountFile("/path/to/key.json")`:
     
-    ```
+    ```go
     visionClient, err := vision.NewImageAnnotatorClient(ctx, option.WithServiceAccountFile("/path/to/key.json"))
         if err != nil {
             return nil, nil, errors.Wrap(err, "Error creating vision client")

@@ -49,7 +49,7 @@ Mess around with the `MirrorService` to make sure that everything seems to be wo
 
 Now let’s get the database set up. Right click on the **e** for _EasyPHP_ in your task bar and select **Administration**. On the Administration page, click the big green button that says _Manage Your Databases_. If your browser takes you to your _phpMyAdmin_ page, then everything is fine and you can skip the next paragraph. If you got errors saying that you could not login, then it is probably because you have already installed _MySQL_ and have set a password for the **root** user account. To fix this, open `C:\Program Files\EasyPHP-5.3.6.1\phpmyadmin\config.inc.php` (modify that path to match your setup if necessary). You will need to change the following 2 fields.
 
-```
+```php
 $cfg['Servers'][$i]['password'] = 'yourPassword'; 
 $cfg['Servers'][$i]['AllowNoPassword'] = false;
 ```
@@ -60,7 +60,7 @@ Once you have successfully logged into _phpMyAdmin_, click the _Databases_ tab, 
 
 Click on your newly created table, go to the _SQL_ tab, enter the following SQL code, and click _Go._
 
-```
+```sql
 create table events 
 ( 
     id bigint not null auto_increment primary key, 

@@ -14,7 +14,7 @@ _This post is a summary of [this StackOverflow answer](http://stackoverflow.com/
 
 To read a file that is currently open (or may be open later) in another process, you must specify a [`FileShare`](http://msdn.microsoft.com/en-us/library/system.io.fileshare.aspx) option. The `FileShare` flag indicates the modes that other processes are allowed to open the file in.
 
-```
+```csharp
 using (Stream s = System.IO.File.Open(fullFilePath, 
           FileMode.Open, 
           FileAccess.Read,       // I want to open this file for reading only.

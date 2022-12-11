@@ -58,19 +58,19 @@ I'm going to assume that you are familiar administrating with phpMyAdmin and MyS
 
 Open the MySQL command prompt to your database.
 
-```
+```sh
 > mysql --user=user_name --password=P@assw0rd database_name
 ```
 
 In the mysql database prompt, execute the SQL file you exported.
 
-```
+```sh
 mysql> source database_name.sql
 ```
 
 Change your site's location in the database with the following SQL. You will need to replace `http://my.web.zz/dev` with the URL to your developer instance.
 
-```
+```sql
 SELECT * FROM wp_options WHERE option_name = "home" OR option_name = "siteurl";
 UPDATE wp_options SET option_value = "http://my.web.zz/dev" WHERE option_name = "home" OR option_name = "siteurl"
 ```

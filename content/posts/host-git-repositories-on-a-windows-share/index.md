@@ -19,7 +19,7 @@ I'm going to cover two scenarios: 1) _You already have a git repository_ 2) _You
 
 Clone your repo (`my_project`) into a new bare repository (`my_project.git`):
 
-```
+```sh
 > git clone --bare my_project my_project.git
 ```
 
@@ -27,13 +27,13 @@ Move the bare repository to the Windows share.
 
 Add a remote to `my_project` that points to `my_project.git`. You can name your remote something other than `origin` if you would like. _Note that forward slashes are used, not backslashes_.
 
-```
+```sh
 > git remote add origin //{ServerNameOrIp}/{ShareName}/my_project.git  
 ```
 
 You're all set up. You can now `push` and `pull` from that remote repository. If you need to clone that repo later, just use
 
-```
+```sh
 > git clone //{ServerNameOrIp}/{ShareName}/my_project.git`
 ```
 
@@ -41,7 +41,7 @@ You're all set up. You can now `push` and `pull` from that remote repository. If
 
 Create a new bare repository.
 
-```
+```sh
 > mkdir my_project.git > cd my_project.git > git init --bare
 ```
 
@@ -49,7 +49,7 @@ Move the bare repository to the Windows share.
 
 Clone the repository. _Note that forward slashes are used, not backslashes_.
 
-```
+```sh
 > git clone //{ServerNameOrIp}/{ShareName}/my_project.git`
 ```
 

@@ -18,7 +18,7 @@ Have you ever wanted to send out email alerts when an particular event appears i
 
 The script takes in quite a few required parameters in order to make it more flexible and reusable, so it may seem a little complicated at first. The mandatory parameters are `Source`, `SmtpUser`, `SmtpPassword`, `MailFrom`, and `MailTo`. All the other parameters have sensible defaults for sending emails through Gmail. You could customize these to be able to send email through some other provider if you needed to. Use `Get-Help` to get more information about all the parameters as well as some example usages.
 
-```
+```powershell
 Get-Help Send-EventEntryEmail --detailed
 ```
 
@@ -26,14 +26,14 @@ A scheduled task is still used to fire off the script, but the script handles ge
 
 The implementation is actually pretty simple. To start off, I pull the latest event entries with `Get-EventLog`, and filter the results based on the script parameters (`Source`, `Newest`, `LogName`).
 
-```
+```powershell
 # Get the event entries.
 $eventEntries = Get-EventLog -LogName $LogName -Source $Source -Newest $Newest -EntryType $EntryType
 ```
 
 `$eventEntries` is an array of [System.Diagnostics.EventLogEntry](http://msdn.microsoft.com/en-us/library/system.diagnostics.eventlogentry.aspx). I then build a html table row for each of these entries and include the time the event was generated, the type of event, and the message associated with the event.
 
-```
+```powershell
 # Create a table row for each entry.
 $rows = ""
 foreach ($eventEntry in $eventEntries){
@@ -49,7 +49,7 @@ foreach ($eventEntry in $eventEntries){
 
 To finish things up, just create a new `MailMessage` and `SmtpClient` and send of the email.
 
-```
+```powershell
 # Create the email.
 $email = New-Object System.Net.Mail.MailMessage( $MailFrom , $MailTo )
 $email.Subject = $Subject

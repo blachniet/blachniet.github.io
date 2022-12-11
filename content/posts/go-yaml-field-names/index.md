@@ -13,7 +13,7 @@ blachnietWordPressExport: true
 
 I wasted away a good thirty minutes trying to figure out why I couldn't parse my YAML config file this morning using [go-yaml](https://github.com/go-yaml/yaml).
 
-```
+```go
 package main
 
 import (
@@ -47,7 +47,7 @@ func main() {
 
 **Output:**
 
-```
+```plain
 Config: {Message: UpdateInterval:0 EmailAddresses:[]}
 ```
 
@@ -55,7 +55,7 @@ As you can see in the output, no errors occur but the struct fields are not init
 
 It turns out that [go-yaml](https://github.com/go-yaml/yaml) expects the YAML field corresponding to a struct field to be lowercase. So if your struct field is `UpdateInterval`, the corresponding field in YAML is `updateinterval`. When I changed my config, I got the output I was expecting:
 
-```
+```go
 var configText = `
   message: Welcome
   updateinterval: 5
@@ -66,13 +66,13 @@ var configText = `
 
 **Output:**
 
-```
+```plain
 Config: {Message:Welcome UpdateInterval:5 EmailAddresses:[john.doe@example.com jane.doe@example.com]}
 ```
 
 I didn't really like the all-lowercase field names in my config, so I used struct field tags to tell [go-yaml](https://github.com/go-yaml/yaml) what the corresponding YAML field names will look like and reverted to my original config:
 
-```
+```go
 var configText = `
   Message: Welcome
   UpdateInterval: 5
@@ -89,7 +89,7 @@ type Config struct {
 
 **Output:**
 
-```
+```plain
 Config: {Message:Welcome UpdateInterval:5 EmailAddresses:[john.doe@example.com jane.doe@example.com]}
 ```
 

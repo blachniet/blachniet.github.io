@@ -69,7 +69,7 @@ The _ProductListControl.cshtml_ is a very simple partial view that displays all 
 
 The controller has a GET action for the Index and a POST action for adding the item. The _Index\_AddItem_ function is what the AJAX form calls when it is submitted. This function returns a partial view, allowing us to avoid regenerating the entire page.
 
-```
+```csharp
 // Controllers\ProductController.cs 
 namespace BoringStore.Controllers 
 { 

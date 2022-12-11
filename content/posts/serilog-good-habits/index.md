@@ -19,7 +19,7 @@ When you create you log events, include an `EventID` property to uniquely identi
 
 I like to make my event ids stand out in the message, so I generally wrap them in `<>` or something similar. I also include the `:l` modifier to leave out the double quotes in the message.
 
-```
+```csharp
 log.Information(
 "<{EventID:l}>  {Handler} - {ElapsedMilliseconds}ms", 
 "HandlerCompleted", handler.GetType().Name, stopwatch.ElapsedMilliseconds);
@@ -32,7 +32,7 @@ log.Information(
 
 Always include the code entity responsible for creating the log event. This will help you narrow down where problems are coming from, particularly if you have multiple code entities that produce the same `EventID`. Serilog provides an easy way to do this with the `ForContext<T>()` method on loggers which adds a `SourceContext` property on the log event.
 
-```
+```csharp
 var log = baseLogger.ForContext<IndexHandler>();
 log.Error("<{EventID:l}>", "DbConnErr");
 
@@ -47,7 +47,7 @@ log.Error("<{EventID:l}>", "DbConnErr");
 
 If you have a stream of log events that are related (e.g. multiple log events from a single HTTP transaction), include a property to link them all together. I generally call mine `ContextID`. When you are analyzing your logs later and want to look at a single transaction, you can filter by this property. You can use the `ForContext()` method on loggers to attach this property to log events without including it in the log message.
 
-```
+```csharp
 log.ForContext("ContextID", transactionID)
 .Information("<{EventID:l}>", "TransactionStarted");
 
@@ -65,7 +65,7 @@ Try to keep your log messages brief. A good log event message gives a very short
 
 I'm not saying to exclude details from log events, just don't include them in the message. For example, don't [destructure](https://github.com/serilog/serilog/wiki/Structured-Data#preserving-object-structure) big objects in your messages. It just makes the message hard to read. Your log events are ideally going to a destination that can handle structured events, [like Elasticsearch](http://blachniet.com/blog/structured-logging-serilog-elk/), so you can still query on those details even when they are not included in the message.
 
-```
+```csharp
 var user = new User{
   Name = "John",
   Email = "john.doe@example.com",
@@ -88,7 +88,7 @@ log.Information("<{EventID:l}> {User}",
 
 Add some extension methods to make logging even easier. For example, I added extension methods that allowed me to include the `EventID` in the log message without having to manually add it to the message template for each event.
 
-```
+```csharp
 public static void InformationEvent(this ILogger logger, string eventID, 
     string messageTemplate, params object[] propertyValues)
 {
@@ -102,7 +102,7 @@ log.InformationEvent("NewUser", "{Email}", user.Email);
 
 I also like to create an extension method to wrap calls to `ForContext`. I like the `With` terminology used by [logrus](https://github.com/Sirupsen/logrus), so I generally create an extension method with the same name which destructures the given value by default (`ForContext` does not destructure by default).
 
-```
+```csharp
 public static ILogger With(this ILogger logger, string propertyName, object value)
 {
     return logger.ForContext(propertyName, value, destructureObjects=true);

@@ -20,7 +20,7 @@ I'm assuming you've already enabled Google authentication by uncommenting `app.U
 
 To get the email address, just hop on over to `AccountController.ExternalLoginCallback`. Here, after the user has successfully authenticated with Google, you can grab the external identity. That external identity has some default claims in it, one of which (for Google Authentication at least) is the user's email address.
 
-```
+```csharp
     //
     // GET: /Account/ExternalLoginCallback
     [AllowAnonymous]

@@ -15,7 +15,7 @@ If you're running a small website and using [Google Analytics](http://bit.ly/bla
 
 Luckily, Google Analytics allows you to change this setting. If you're using Universal Analytics you can [set the site speed sample rate when creating your tracker](http://bit.ly/R4vl4g). In the example below I have set the tracker to sample 50% of my visitors by passing `{'siteSpeedSampleRate': 50}` in the `create` call.
 
-```
+```html
 <script type="text/javascript">
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

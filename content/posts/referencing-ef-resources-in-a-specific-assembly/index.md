@@ -15,7 +15,7 @@ This post and [sample application](https://github.com/blachniet/ef-issue-1377) d
 
 In my application, all assemblies in some specific directory are discovered and loaded at runtime. Think of it as a sort of plugin model. The application allows for multiple versions of the same assembly to be loaded, and each dll follows the `[AssemblyName].[Version].dll` naming scheme. One of my assemblies that is discovered and loaded at runtime contains an EF entity model and uses it to perform some queries against the database. I will refer to this assembly as `EFContainer`. Whenever I make changes to the database schema, I update the model, and create a new version of `EFContainer`. In order to make sure I load the correct embedded metadata resources, my connection string uses the full assembly name to specify the location of the resoruces as opposed to the default wildcard (`res://*/FooModel.csdl|...`):
 
-```
+```xml
 <add name="FooContext" connectionString="metadata=
     res://EFContainer, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null/FooModel.csdl|
     res://EFContainer, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null/FooModel.ssdl|

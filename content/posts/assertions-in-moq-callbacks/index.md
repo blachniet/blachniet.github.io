@@ -10,7 +10,7 @@ blachnietWordPressExport: true
 
 I learned an important lesson today: **do not _assert_ inside of [Moq](https://github.com/Moq/moq4) callbacks**. In the code below, even if the `Assert.AreEqual` fails, it will not cause the unit test to fail.
 
-```
+```csharp
 moqObj.Setup(m => m.Doit(It.IsAny<string>())).Callback<string>((s) => 
 {
     Assert.AreEqual("foo", s);
@@ -20,7 +20,7 @@ moqObj.Setup(m => m.Doit(It.IsAny<string>())).Callback<string>((s) =>
 
 You could use [`Verify`](https://github.com/Moq/moq4/wiki/Quickstart#verification) instead, but it's not always ideal, particularly when trying to step through the assertions while debugging tests. Instead, you can take this approach suggested by [Thomas Ardal](http://thomasardal.com/using-moq-callbacks-as-verify/).
 
-```
+```csharp
 string actual = null;
 moqObj.Setup(m => m.Doit(It.IsAny<string>())).Callback<string>((s) => 
 {

@@ -18,7 +18,7 @@ coverImage: "BorderlessWindow.png"
 
 Starting with a fresh window set and the window properties `WindowStyle="None"`, `AllowsTransparency="True"`, and `ResizeMode="CanResizeWithGrip"`. This will give you your starting borderless window that is resizable from the bottom-right corner.
 
-```
+```xml
 <Window x:Class="SimpleBorderlessWindow.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -32,7 +32,7 @@ Starting with a fresh window set and the window properties `WindowStyle="None"`,
 
 A `DockPanel` is used to group together all the top elements (window title, draggable area, close/minimize buttons). Two `TextBlock`s with `Hyperlink`s docked to the right make up the minimize and close buttons. A `StatusBar` with the window title makes up the rest of the area, and defines the _draggable_ area.
 
-```
+```xml
 <DockPanel>
     <DockPanel DockPanel.Dock="Top">
         <TextBlock DockPanel.Dock="Right"
@@ -65,7 +65,7 @@ A `DockPanel` is used to group together all the top elements (window title, drag
 
 A style is used to make the icons change color when the mouse is over them. This also removes the underlining, the hand cursor, and sets the font to Webdings which gives us some nice icons.
 
-```
+```xml
 <Window.Resources>
     <Style x:Key="WindowIconStyle"
            TargetType="{x:Type Hyperlink}">
@@ -92,7 +92,7 @@ A style is used to make the icons change color when the mouse is over them. This
 
 Finally you just have to hook up the events in your code behind. _OMG, Did he say code-behind!!!_ - yup. I love MVVM, and try to avoid code behind in general, but this functionality seems like it belongs in the view layer (which the code-behind falls into the view layer here). You can still easily hook this view up to a view model, and use everything else in the beautiful MVVM way.
 
-```
+```csharp
 public partial class MainWindow : Window
 {
     public MainWindow()

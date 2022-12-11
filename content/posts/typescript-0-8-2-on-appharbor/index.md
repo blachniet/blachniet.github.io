@@ -18,25 +18,25 @@ Copy _C:\\Program Files\\MSBuild\\Microsoft\\Visual Studio\\v11.0\\TypeScript_ a
 
 In your copied _Microsoft.TypeScript.targets_, replace
 
-```
+```xml
 <Exec Command="tsc $(TypeScriptBuildConfigurations) @(TypeScriptCompile ->'"%(fullpath)"', ' ')" />
 ```
 
 with
 
-```
+```xml
 <Exec Command="..\Tools\TypeScript\tsc.exe $(TypeScriptBuildConfigurations) @(TypeScriptCompile ->'&quot;%(fullpath)&quot;', ' ')" />
 ```
 
 In your _.csproj_ file, replace
 
-```
+```xml
 <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" />
 ```
 
 with
 
-```
+```xml
 <Import Project="..\Tools\TypeScript\Microsoft.TypeScript.targets" />
 ```
 

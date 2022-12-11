@@ -14,3 +14,4 @@ To generate the stylesheet:
 hugo gen chromastyles --style dracula --highlightStyle 'bg:#44475a' > assets/css/extended/dracula.css
 ```
 
+See the [List of Chroma Highlighting Languages](https://gohugo.io/content-management/syntax-highlighting/#list-of-chroma-highlighting-languages).

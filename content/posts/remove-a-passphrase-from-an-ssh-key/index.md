@@ -15,7 +15,7 @@ blachnietWordPressExport: true
 
 If you are using [GitHub for Windows](http://windows.github.com/) with non-GitHub repositories, you may have run into the limitation that you cannot sync using an SSH key with a passphrase. One workaround is to push/pull from the shell, but if don't mind removing the passphrase from the key, use the following command.
 
-```
+```sh
 ssh-keygen -p -P "my_old_password" -N “” -f my_key_file_name
 ```
 

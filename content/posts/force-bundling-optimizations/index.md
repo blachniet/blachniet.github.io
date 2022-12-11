@@ -15,7 +15,7 @@ coverImage: "sound3.png"
 
 Use the following code in the `BundleConfig.cs` of your ASP.NET MVC application to force bundling and minification.
 
-```
+```csharp
 // BundleConfig::RegisterBundles
 BundleTable.EnableOptimizations = true;
 ```

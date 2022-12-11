@@ -15,7 +15,7 @@ blachnietWordPressExport: true
 
 It's common for web applications to use email addresses instead of user names to distinguish users. However, if you are using ASP.NET Identity, you have probably noticed that it has `UserName` built into the `IUser` interface. Since Identity assumes that this is the distinguishing field for the user, it's not crazy to think that it might be a good place to drop the email address. In order to have Identity allow an email address in this field, you will need to write a custom `IIdentityValidator`.
 
-```
+```csharp
 /// <summary>
 /// A replacement for the <see cref="UserValidator"/> which requires that an email 
 /// address be used for the <see cref="IUser.UserName"/> field.
@@ -71,7 +71,7 @@ This validator ensures that the `UserName` field is set to an email address. It 
 
 In order to use this validator, just set your `UserManager.UserValidator` to a new instance of it.
 
-```
+```csharp
 [Authorize]
 public class AccountController : Controller
 {
