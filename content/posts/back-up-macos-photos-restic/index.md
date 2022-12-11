@@ -1,10 +1,9 @@
 ---
 title: "Back up macOS Photos with Restic"
-date: 2022-12-10T07:53:56-05:00
+date: 2022-12-10T20:04:24-05:00
 tags:
 - macos
 - restic
-draft: true
 ---
 
 [Restic][1] is a wonderfully simple backup program. I've used it on my Linux machines for a while. I recently decided to use it on macOS as well.
