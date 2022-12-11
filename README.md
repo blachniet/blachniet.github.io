@@ -2,6 +2,17 @@
 
 My personal website. Slowly transitioning from my WordPress site at <https://blachniet.com>.
 
+## Writing
+
+### Publishing checklist
+
+- [ ] Title
+- [ ] Date
+- [ ] Tags
+- [ ] Slug
+- [ ] Spell
+- [ ] Cross-post
+
 ## Theme
 
 ### Syntax highlighting
