@@ -187,7 +187,7 @@ My first exposure to structured logging was in early 2014. I was creating a simp
       
       <guid>https://blachniet.github.io/posts/go-yaml-field-names/</guid>
       <description>I wasted away a good thirty minutes trying to figure out why I couldn&amp;rsquo;t parse my YAML config file this morning using go-yaml.
-package main import ( &amp;quot;fmt&amp;quot; &amp;quot;log&amp;quot; &amp;quot;gopkg.in/yaml.v2&amp;quot; ) var configText = ` Message: Welcome UpdateInterval: 5 EmailAddresses: - john.doe@example.com - jane.doe@example.com` type Config struct { Message string UpdateInterval int EmailAddresses []string } func main() { var c Config if err := yaml.Unmarshal([]byte(configText), &amp;amp;c); err != nil { log.</description>
+package main import ( &amp;#34;fmt&amp;#34; &amp;#34;log&amp;#34; &amp;#34;gopkg.in/yaml.v2&amp;#34; ) var configText = ` Message: Welcome UpdateInterval: 5 EmailAddresses: - john.doe@example.com - jane.doe@example.com` type Config struct { Message string UpdateInterval int EmailAddresses []string } func main() { var c Config if err := yaml.Unmarshal([]byte(configText), &amp;amp;c); err != nil { log.</description>
     </item>
     
     <item>
@@ -197,7 +197,7 @@ package main import ( &amp;quot;fmt&amp;quot; &amp;quot;log&amp;quot; &amp;quot;
       
       <guid>https://blachniet.github.io/posts/assertions-in-moq-callbacks/</guid>
       <description>I learned an important lesson today: do not assert inside of Moq callbacks. In the code below, even if the Assert.AreEqual fails, it will not cause the unit test to fail.
-moqObj.Setup(m =&amp;gt; m.Doit(It.IsAny&amp;lt;string&amp;gt;())).Callback&amp;lt;string&amp;gt;((s) =&amp;gt; { Assert.AreEqual(&amp;quot;foo&amp;quot;, s); }); // Insert test code that invokes `Doit` You could use Verify instead, but it&amp;rsquo;s not always ideal, particularly when trying to step through the assertions while debugging tests. Instead, you can take this approach suggested by Thomas Ardal.</description>
+moqObj.Setup(m =&amp;gt; m.Doit(It.IsAny&amp;lt;string&amp;gt;())).Callback&amp;lt;string&amp;gt;((s) =&amp;gt; { Assert.AreEqual(&amp;#34;foo&amp;#34;, s); }); // Insert test code that invokes `Doit` You could use Verify instead, but it&amp;rsquo;s not always ideal, particularly when trying to step through the assertions while debugging tests. Instead, you can take this approach suggested by Thomas Ardal.</description>
     </item>
     
     <item>
@@ -268,7 +268,7 @@ Before We Start Here&amp;rsquo;s my environment setup. This post should still be
       <guid>https://blachniet.github.io/posts/read-open-files-c/</guid>
       <description>This post is a summary of this StackOverflow answer by Cheeso.
 To read a file that is currently open (or may be open later) in another process, you must specify a FileShare option. The FileShare flag indicates the modes that other processes are allowed to open the file in.
-using (Stream s = System.IO.File.Open(fullFilePath, FileMode.Open, FileAccess.Read, // I want to open this file for reading only. FileShare.ReadWrite)) // Other processes may specify // FileAccess of read or write.</description>
+using (Stream s = System.IO.File.Open(fullFilePath, FileMode.Open, FileAccess.Read, // I want to open this file for reading only.  FileShare.ReadWrite)) // Other processes may specify  // FileAccess of read or write.</description>
     </item>
     
     <item>
@@ -400,7 +400,7 @@ sp_help @tablename </description>
       
       <guid>https://blachniet.github.io/posts/remove-a-passphrase-from-an-ssh-key/</guid>
       <description>If you are using GitHub for Windows with non-GitHub repositories, you may have run into the limitation that you cannot sync using an SSH key with a passphrase. One workaround is to push/pull from the shell, but if don&amp;rsquo;t mind removing the passphrase from the key, use the following command.
-ssh-keygen -p -P &amp;quot;my_old_password&amp;quot; -N “” -f my_key_file_name After you remove the passphrase you should be able to sync from within the GitHub for Windows client.</description>
+ssh-keygen -p -P &amp;#34;my_old_password&amp;#34; -N “” -f my_key_file_name After you remove the passphrase you should be able to sync from within the GitHub for Windows client.</description>
     </item>
     
     <item>

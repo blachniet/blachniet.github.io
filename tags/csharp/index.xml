@@ -49,7 +49,7 @@ My first exposure to structured logging was in early 2014. I was creating a simp
       <guid>https://blachniet.github.io/posts/read-open-files-c/</guid>
       <description>This post is a summary of this StackOverflow answer by Cheeso.
 To read a file that is currently open (or may be open later) in another process, you must specify a FileShare option. The FileShare flag indicates the modes that other processes are allowed to open the file in.
-using (Stream s = System.IO.File.Open(fullFilePath, FileMode.Open, FileAccess.Read, // I want to open this file for reading only. FileShare.ReadWrite)) // Other processes may specify // FileAccess of read or write.</description>
+using (Stream s = System.IO.File.Open(fullFilePath, FileMode.Open, FileAccess.Read, // I want to open this file for reading only.  FileShare.ReadWrite)) // Other processes may specify  // FileAccess of read or write.</description>
     </item>
     
     <item>
