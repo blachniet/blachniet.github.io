@@ -147,12 +147,10 @@ markup:
     renderer:
       unsafe: true
   highlight:
-    noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    codeFences: true
+    noClasses: true
+    style: dracula
+    tabWidth: 2
 
 privacy:
   vimeo:
