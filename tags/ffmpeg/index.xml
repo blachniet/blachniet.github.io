@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ffmpeg on Brian Lachniet</title>
+    <link>https://blachniet.github.io/tags/ffmpeg/</link>
+    <description>Recent content in ffmpeg on Brian Lachniet</description>
+    <image>
+      <url>https://blachniet.github.io/papermod-cover.png</url>
+      <link>https://blachniet.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Jan 2023 14:22:49 -0500</lastBuildDate><atom:link href="https://blachniet.github.io/tags/ffmpeg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Remove a video stream from an MP4</title>
+      <link>https://blachniet.github.io/posts/remove-a-video-stream-from-an-mp4/</link>
+      <pubDate>Mon, 16 Jan 2023 14:22:49 -0500</pubDate>
+      
+      <guid>https://blachniet.github.io/posts/remove-a-video-stream-from-an-mp4/</guid>
+      <description>My kids figured out pretty early how to capture videos and pictures on our tablets. I ran across a video recently that was taking up almost 2 GB of space in my library. I played it back to find that my toddler (at the time) had captured an hour-long video, but had left the tablet on the ground the entire time, camera facing down.
+The entire video was black, but the audio was pretty adorable.</description>
+    </item>
+    
+  </channel>
+</rss>
