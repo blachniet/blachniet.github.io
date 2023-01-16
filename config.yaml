@@ -9,7 +9,7 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-enableEmoji: true
+enableEmoji: false
 pygmentsUseClasses: true
 # googleAnalytics: UA-123-45
 
