@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>mysql on Brian Lachniet</title>
-    <link>https://blachniet.github.io/tags/mysql/</link>
+    <link>https://blachniet.com/tags/mysql/</link>
     <description>Recent content in mysql on Brian Lachniet</description>
     <image>
-      <url>https://blachniet.github.io/papermod-cover.png</url>
-      <link>https://blachniet.github.io/papermod-cover.png</link>
+      <url>https://blachniet.com/papermod-cover.png</url>
+      <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Sep 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.github.io/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Sep 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Flash Data Storage Services : Part 2</title>
-      <link>https://blachniet.github.io/posts/flash-data-storage-services-part-2/</link>
+      <link>https://blachniet.com/posts/flash-data-storage-services-part-2/</link>
       <pubDate>Tue, 06 Sep 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://blachniet.github.io/posts/flash-data-storage-services-part-2/</guid>
+      <guid>https://blachniet.com/posts/flash-data-storage-services-part-2/</guid>
       <description>In my last post we set up our EasyPHP server and created a MySQL database for our event manager. In this post we are going to create the Amfphp service to create, delete, and get events from the database. We are also going to create an ActionScript 3 class to talk to the PHP service.
 Creating the Service Your event service will be contained within a single PHP file in the Amfphp\Services\ directory.</description>
     </item>
     
     <item>
       <title>Data Storage Services for Flash Applications : Part 1</title>
-      <link>https://blachniet.github.io/posts/flash-data-storage-services-part-1/</link>
+      <link>https://blachniet.com/posts/flash-data-storage-services-part-1/</link>
       <pubDate>Tue, 30 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://blachniet.github.io/posts/flash-data-storage-services-part-1/</guid>
+      <guid>https://blachniet.com/posts/flash-data-storage-services-part-1/</guid>
       <description>A core need of many online Flash applications is to store data in an online database. Supporting this need requires the integration of a few different technologies. The solution that I will be walking you through in this and the next tutorial post will integrate AS3, PHP, MySQL, and amfphp. This post will contain the boring, yet necessary, setup steps. This includes installing all tools and frameworks as well as creating the MySQL database to store your application data.</description>
     </item>
     

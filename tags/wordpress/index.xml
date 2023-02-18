@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>wordpress on Brian Lachniet</title>
-    <link>https://blachniet.github.io/tags/wordpress/</link>
+    <link>https://blachniet.com/tags/wordpress/</link>
     <description>Recent content in wordpress on Brian Lachniet</description>
     <image>
-      <url>https://blachniet.github.io/papermod-cover.png</url>
-      <link>https://blachniet.github.io/papermod-cover.png</link>
+      <url>https://blachniet.com/papermod-cover.png</url>
+      <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Jan 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.github.io/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Jan 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Create a Development Version of an Existing WordPress Site</title>
-      <link>https://blachniet.github.io/posts/create-development-version-existing-wordpress-site/</link>
+      <link>https://blachniet.com/posts/create-development-version-existing-wordpress-site/</link>
       <pubDate>Sun, 12 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://blachniet.github.io/posts/create-development-version-existing-wordpress-site/</guid>
+      <guid>https://blachniet.com/posts/create-development-version-existing-wordpress-site/</guid>
       <description>UPDATE : This article provides a manual approach to creating a development copy of your website. However, I ran across this WPBeginner article which describes a much easier approach using the Duplicator plugin. I would suggest following that guide unless you prefer the manual process.
 Before We Start Here&amp;rsquo;s my environment setup. This post should still be helpful if your setup isn&amp;rsquo;t exactly the same, though.
  GoDaddy Hosting (production) WAMP (development) phpMyAdmin (production + development)  Files Download WordPress Files Instead of using the WordPress export feature, we&amp;rsquo;re going to grab all site&amp;rsquo;s files.</description>

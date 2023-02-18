@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>hardware on Brian Lachniet</title>
-    <link>https://blachniet.github.io/tags/hardware/</link>
+    <link>https://blachniet.com/tags/hardware/</link>
     <description>Recent content in hardware on Brian Lachniet</description>
     <image>
-      <url>https://blachniet.github.io/papermod-cover.png</url>
-      <link>https://blachniet.github.io/papermod-cover.png</link>
+      <url>https://blachniet.com/papermod-cover.png</url>
+      <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Jun 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.github.io/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Jun 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>746GB in a 3TB Seagate Drive</title>
-      <link>https://blachniet.github.io/posts/746gb-in-a-3tb-seagate-drive/</link>
+      <link>https://blachniet.com/posts/746gb-in-a-3tb-seagate-drive/</link>
       <pubDate>Sun, 02 Jun 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://blachniet.github.io/posts/746gb-in-a-3tb-seagate-drive/</guid>
+      <guid>https://blachniet.com/posts/746gb-in-a-3tb-seagate-drive/</guid>
       <description>So I finally got the time to install my 3TB hard drive in my home server, but ran into some problems. After installing the drive, it showed only 746GB available on the drive. I know I&amp;rsquo;m never going to see 3000GB (because hard drive manufacturers are liars) but this was way below the expected size.
 Luckily, I&amp;rsquo;m not the only one that&amp;rsquo;s run into this issue. My first instict was to go to Disk Management to try to extend the volume, but when I got in there, it only showed the single volume with 746GB, and no unallocated space.</description>
     </item>

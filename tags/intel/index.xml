@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>intel on Brian Lachniet</title>
-    <link>https://blachniet.github.io/tags/intel/</link>
+    <link>https://blachniet.com/tags/intel/</link>
     <description>Recent content in intel on Brian Lachniet</description>
     <image>
-      <url>https://blachniet.github.io/papermod-cover.png</url>
-      <link>https://blachniet.github.io/papermod-cover.png</link>
+      <url>https://blachniet.com/papermod-cover.png</url>
+      <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Oct 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.github.io/tags/intel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Oct 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/intel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ctrl&#43;Alt&#43;Arrow Flips My Screen</title>
-      <link>https://blachniet.github.io/posts/ctrlaltarrow-flips-my-screen/</link>
+      <link>https://blachniet.com/posts/ctrlaltarrow-flips-my-screen/</link>
       <pubDate>Sat, 19 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://blachniet.github.io/posts/ctrlaltarrow-flips-my-screen/</guid>
+      <guid>https://blachniet.com/posts/ctrlaltarrow-flips-my-screen/</guid>
       <description>If this is happening to you, it could be because you are using the Intel HD Graphics drivers. You&amp;rsquo;ll certainly notice this issue if you use Sublime Text since it uses the same key combination to expand the multiline editing.
 To resolve the issue you can either change Intel&amp;rsquo;s keys or turn them off entirely.
   Right click on you desktop and select Graphics Properties in the context menu.</description>

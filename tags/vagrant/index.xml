@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>vagrant on Brian Lachniet</title>
-    <link>https://blachniet.github.io/tags/vagrant/</link>
+    <link>https://blachniet.com/tags/vagrant/</link>
     <description>Recent content in vagrant on Brian Lachniet</description>
     <image>
-      <url>https://blachniet.github.io/papermod-cover.png</url>
-      <link>https://blachniet.github.io/papermod-cover.png</link>
+      <url>https://blachniet.com/papermod-cover.png</url>
+      <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Jul 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.github.io/tags/vagrant/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Jul 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/vagrant/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vagrant Hostsupdater Requires Admin</title>
-      <link>https://blachniet.github.io/posts/vagrant-hostsupdater-requires-admin/</link>
+      <link>https://blachniet.com/posts/vagrant-hostsupdater-requires-admin/</link>
       <pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://blachniet.github.io/posts/vagrant-hostsupdater-requires-admin/</guid>
+      <guid>https://blachniet.com/posts/vagrant-hostsupdater-requires-admin/</guid>
       <description>VagrantPress and VVV use the Vagrant::Hostsupdater plugin to allow you to access your development WordPress sites at a friendlier URL (e.g. http://vagrantpress.dev instead of http://localhost:8080). On Windows machines, the plugin updates the file at C:\Windows\System32\drivers\etc\hosts, but modifying this files requires admin access. You must run your shell as an administrator for the plugin to be able to update this file when you vagrant up.
 
 BONUS: I&amp;rsquo;ve seen a lot of people installing Cygwin or Putty just to be able to use Vagrant on Windows (since it requires SSH).</description>

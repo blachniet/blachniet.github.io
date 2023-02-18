@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>flashdevelop on Brian Lachniet</title>
-    <link>https://blachniet.github.io/tags/flashdevelop/</link>
+    <link>https://blachniet.com/tags/flashdevelop/</link>
     <description>Recent content in flashdevelop on Brian Lachniet</description>
     <image>
-      <url>https://blachniet.github.io/papermod-cover.png</url>
-      <link>https://blachniet.github.io/papermod-cover.png</link>
+      <url>https://blachniet.com/papermod-cover.png</url>
+      <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Oct 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.github.io/tags/flashdevelop/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Oct 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/flashdevelop/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Flare3D &amp; FlashDevelop Setup</title>
-      <link>https://blachniet.github.io/posts/flare3d-flashdevelop/</link>
+      <link>https://blachniet.com/posts/flare3d-flashdevelop/</link>
       <pubDate>Sun, 09 Oct 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://blachniet.github.io/posts/flare3d-flashdevelop/</guid>
+      <guid>https://blachniet.com/posts/flare3d-flashdevelop/</guid>
       <description>This post is a simple walkthrough for getting the latest Flare3D pre release (2.0.42) and the latest FlashDevelop (4.0.0 RC1) working together nicely. This post builds on an older how-to done by the Flare3D team which can be found here.
   Get the latest FlashDevelop  Download FlashDevelop 4.0.0 RC1 here. Run the installer.  Make sure that you install Flex 4.5 SDK as part of the FlashDevelop installation.</description>
     </item>
     
     <item>
       <title>Flash Data Storage Services : Part 2</title>
-      <link>https://blachniet.github.io/posts/flash-data-storage-services-part-2/</link>
+      <link>https://blachniet.com/posts/flash-data-storage-services-part-2/</link>
       <pubDate>Tue, 06 Sep 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://blachniet.github.io/posts/flash-data-storage-services-part-2/</guid>
+      <guid>https://blachniet.com/posts/flash-data-storage-services-part-2/</guid>
       <description>In my last post we set up our EasyPHP server and created a MySQL database for our event manager. In this post we are going to create the Amfphp service to create, delete, and get events from the database. We are also going to create an ActionScript 3 class to talk to the PHP service.
 Creating the Service Your event service will be contained within a single PHP file in the Amfphp\Services\ directory.</description>
     </item>
     
     <item>
       <title>Data Storage Services for Flash Applications : Part 1</title>
-      <link>https://blachniet.github.io/posts/flash-data-storage-services-part-1/</link>
+      <link>https://blachniet.com/posts/flash-data-storage-services-part-1/</link>
       <pubDate>Tue, 30 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://blachniet.github.io/posts/flash-data-storage-services-part-1/</guid>
+      <guid>https://blachniet.com/posts/flash-data-storage-services-part-1/</guid>
       <description>A core need of many online Flash applications is to store data in an online database. Supporting this need requires the integration of a few different technologies. The solution that I will be walking you through in this and the next tutorial post will integrate AS3, PHP, MySQL, and amfphp. This post will contain the boring, yet necessary, setup steps. This includes installing all tools and frameworks as well as creating the MySQL database to store your application data.</description>
     </item>
     
     <item>
       <title>Hello Android AIR World</title>
-      <link>https://blachniet.github.io/posts/hello-android-air-world/</link>
+      <link>https://blachniet.com/posts/hello-android-air-world/</link>
       <pubDate>Sat, 20 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://blachniet.github.io/posts/hello-android-air-world/</guid>
+      <guid>https://blachniet.com/posts/hello-android-air-world/</guid>
       <description>A while back I wrote my first &amp;lsquo;Hello World&amp;rsquo; Android AIR application but never posted anything about it. Since I have this shiny new site, I figured I’d write up something real quick. If you know me at all, it would come as no surprise that I have not dropped the $700 or so on Flash CS5.5. That means that I did this application, a very simple Pong game, with only FlashDevelop.</description>
     </item>
     

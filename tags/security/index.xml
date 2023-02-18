@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>security on Brian Lachniet</title>
-    <link>https://blachniet.github.io/tags/security/</link>
+    <link>https://blachniet.com/tags/security/</link>
     <description>Recent content in security on Brian Lachniet</description>
     <image>
-      <url>https://blachniet.github.io/papermod-cover.png</url>
-      <link>https://blachniet.github.io/papermod-cover.png</link>
+      <url>https://blachniet.com/papermod-cover.png</url>
+      <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Sep 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.github.io/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Sep 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows Automatic Log On</title>
-      <link>https://blachniet.github.io/posts/windows-automatic-log-on/</link>
+      <link>https://blachniet.com/posts/windows-automatic-log-on/</link>
       <pubDate>Mon, 23 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://blachniet.github.io/posts/windows-automatic-log-on/</guid>
+      <guid>https://blachniet.com/posts/windows-automatic-log-on/</guid>
       <description>I have a few applications installed on my home server that are user-level applications, meaning that a user must be logged on in order for the application to start. I don&amp;rsquo;t want to have to manually log on ever time my server restarts, so I set up automatic log on for the server. Here&amp;rsquo;s how to do it.
  Press Windows Key + R to launch the run dialog. Type in netplwiz and click OK.</description>
     </item>
     
     <item>
       <title>Windows Secure Logon</title>
-      <link>https://blachniet.github.io/posts/windows-secure-logon/</link>
+      <link>https://blachniet.com/posts/windows-secure-logon/</link>
       <pubDate>Mon, 23 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://blachniet.github.io/posts/windows-secure-logon/</guid>
+      <guid>https://blachniet.com/posts/windows-secure-logon/</guid>
       <description>You may have noticed that before you log on to you office PC that you are required to press CTRL+ALT+DELETE before entering you user name and password. Apparently, this is actually a security feature. According to this Windows support article (which this post is based on), [w]hen secure logon is enabled, no other program (such as a virus or spyware) can intercept your user name and password as you enter it.</description>
     </item>
     

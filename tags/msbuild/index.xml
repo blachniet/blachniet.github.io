@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>msbuild on Brian Lachniet</title>
-    <link>https://blachniet.github.io/tags/msbuild/</link>
+    <link>https://blachniet.com/tags/msbuild/</link>
     <description>Recent content in msbuild on Brian Lachniet</description>
     <image>
-      <url>https://blachniet.github.io/papermod-cover.png</url>
-      <link>https://blachniet.github.io/papermod-cover.png</link>
+      <url>https://blachniet.com/papermod-cover.png</url>
+      <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Feb 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.github.io/tags/msbuild/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Feb 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/msbuild/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TypeScript 0.8.2 on AppHarbor</title>
-      <link>https://blachniet.github.io/posts/typescript-0-8-2-on-appharbor/</link>
+      <link>https://blachniet.com/posts/typescript-0-8-2-on-appharbor/</link>
       <pubDate>Sun, 10 Feb 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://blachniet.github.io/posts/typescript-0-8-2-on-appharbor/</guid>
+      <guid>https://blachniet.com/posts/typescript-0-8-2-on-appharbor/</guid>
       <description>It doesn&amp;rsquo;t look like AppHarbor is supporting TypeScript yet, which makes sense considering that TypeScript is in preview. So if you want to use AppHarbor to build your TypeScript files as part of its continuous integration/deployment, you&amp;rsquo;ll have to do a little bit of manual work. Before going through the steps below, make sure you have followed the steps in the Compile-on-Save TypeScript post.
 Copy C:\Program Files\MSBuild\Microsoft\Visual Studio\v11.0\TypeScript and C:\Program Files\Microsoft SDKs\TypeScript into some place in your repository.</description>
     </item>

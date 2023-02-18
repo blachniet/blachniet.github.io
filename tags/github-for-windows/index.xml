@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>github-for-windows on Brian Lachniet</title>
-    <link>https://blachniet.github.io/tags/github-for-windows/</link>
+    <link>https://blachniet.com/tags/github-for-windows/</link>
     <description>Recent content in github-for-windows on Brian Lachniet</description>
     <image>
-      <url>https://blachniet.github.io/papermod-cover.png</url>
-      <link>https://blachniet.github.io/papermod-cover.png</link>
+      <url>https://blachniet.com/papermod-cover.png</url>
+      <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Feb 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.github.io/tags/github-for-windows/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Feb 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/github-for-windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Remove a Passphrase from a SSH Key</title>
-      <link>https://blachniet.github.io/posts/remove-a-passphrase-from-an-ssh-key/</link>
+      <link>https://blachniet.com/posts/remove-a-passphrase-from-an-ssh-key/</link>
       <pubDate>Mon, 04 Feb 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://blachniet.github.io/posts/remove-a-passphrase-from-an-ssh-key/</guid>
+      <guid>https://blachniet.com/posts/remove-a-passphrase-from-an-ssh-key/</guid>
       <description>If you are using GitHub for Windows with non-GitHub repositories, you may have run into the limitation that you cannot sync using an SSH key with a passphrase. One workaround is to push/pull from the shell, but if don&amp;rsquo;t mind removing the passphrase from the key, use the following command.
 ssh-keygen -p -P &amp;#34;my_old_password&amp;#34; -N “” -f my_key_file_name After you remove the passphrase you should be able to sync from within the GitHub for Windows client.</description>
     </item>
