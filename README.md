@@ -1,4 +1,4 @@
-# blachniet.github.io
+# blachniet.com
 
 My personal website. Slowly transitioning from my WordPress site at <https://blachniet.com>.
 
