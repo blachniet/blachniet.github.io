@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/blachniet
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://blachniet.com
+  * I am blachniet (https://keybase.io/blachniet) on keybase.
+  * I have a public key ASBRXQm3QjwU1gROkz41jueUf6QnZe83OjuaYQ3CaFkBLAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120515d09b7423c14d6044e933e358ee7947fa42765ef373a3b9a610dc26859012c0a",
+      "host": "keybase.io",
+      "kid": "0120515d09b7423c14d6044e933e358ee7947fa42765ef373a3b9a610dc26859012c0a",
+      "uid": "74190e11ad15e23d2404f6897d720b19",
+      "username": "blachniet"
+    },
+    "merkle_root": {
+      "ctime": 1545589663,
+      "hash": "ce6acbaf2ddcb805f01e7d5a85abb30b806ccf21714c7ce654a5ff12d35e7c338bca35172018a587d8d0acf0d520a780139258d567342b3cd4721cb039a3373a",
+      "hash_meta": "cffed56541e59907c4380072006f8f15b78788c64e3b7dfdb415902b911a9c39",
+      "seqno": 4188309
+    },
+    "service": {
+      "entropy": "/7O6tj9beoiKUGxOuzH34mcf",
+      "hostname": "blachniet.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.12.2"
+  },
+  "ctime": 1545589693,
+  "expire_in": 504576000,
+  "prev": "b8481fab87c32c07623f9ade34af07b7ca512e7d270691cb03029e48227fc420",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgUV0Jt0I8FNYETpM+NY7nlH+kJ2XvNzo7mmENwmhZASwKp3BheWxvYWTESpcCDcQguEgfq4fDLAdiP5reNK8Ht8pRLn0nBpHLAwKeSCJ/xCDEIEZ76fGCc0oiGgxLSl7ZrTugwCEf6oXJ2UKiSHrwhZuKAgHCo3NpZ8RAeJ5vs5G7M8HhhA59mL7j4peIhjtp4ZUW+Ge5mZ5m0COHItVxfFJMeLPi6FXBgHLjqeNzsRBh+CiBD+HKY+qUDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBfsrEinrLjrMBzpUgHtqXas1JewaxukxQD81TLoCgSUo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/blachniet
+
+==================================================================
