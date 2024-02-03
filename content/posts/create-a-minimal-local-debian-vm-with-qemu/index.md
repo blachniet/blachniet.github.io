@@ -1,7 +1,6 @@
 ---
 title: "Create a minimal, local Debian VM with QEMU"
-date: 2024-01-28T08:31:19-05:00
-draft: true
+date: 2024-02-03T12:46:34-05:00
 tags:
 - qemu
 ---
@@ -101,7 +100,7 @@ When prompted for a login, enter `root` with no password.
 localhost login: root
 ```
 
-## Expand the filesystem
+## Expand the file system
 
 If you run `df`, you'll notice that the file system size is only 1.9G.
 

@@ -11,7 +11,6 @@ My personal website.
 - [ ] Tags
 - [ ] Slug
 - [ ] Spell
-- [ ] Cross-post
 
 ### Hugo options
 
