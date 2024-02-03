@@ -11,8 +11,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Jan 2023 14:22:49 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 03 Feb 2024 12:46:34 -0500</lastBuildDate>
     <atom:link href="https://blachniet.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a minimal, local Debian VM with QEMU</title>
+      <link>https://blachniet.com/posts/create-a-minimal-local-debian-vm-with-qemu/</link>
+      <pubDate>Sat, 03 Feb 2024 12:46:34 -0500</pubDate>
+      <guid>https://blachniet.com/posts/create-a-minimal-local-debian-vm-with-qemu/</guid>
+      <description>I occasionally need to spin up a local, short-lived VM on my workstation in order to test something on Linux. For example, I was recently testing a Kubernetes backup utility, so I created a local VM and installed K3s in it.
+Vagrant and VirtualBox are my go-to for this. I&amp;rsquo;m up and off to the races with just a few commands.
+vagrant init hashicorp/bionic64 vagrant up vagrant ssh But after seeing how easy it is to spin up a local VM with QEMU, I decided to give that a try.</description>
+    </item>
     <item>
       <title>Remove a video stream from an MP4</title>
       <link>https://blachniet.com/posts/remove-a-video-stream-from-an-mp4/</link>
