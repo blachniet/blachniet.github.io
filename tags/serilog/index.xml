@@ -5,41 +5,36 @@
     <link>https://blachniet.com/tags/serilog/</link>
     <description>Recent content in serilog on Brian Lachniet</description>
     <image>
+      <title>Brian Lachniet</title>
       <url>https://blachniet.com/papermod-cover.png</url>
       <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 11 May 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/serilog/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Mon, 11 May 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blachniet.com/tags/serilog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>KENS Structured Logging Slides</title>
       <link>https://blachniet.com/posts/kens-structured-logging-slides/</link>
       <pubDate>Mon, 11 May 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/kens-structured-logging-slides/</guid>
-      <description>Last month I gave a presentation on using Serilog, Elasticsearch and Kibana for logging from an application. You can see the slides from that presentation below. I&amp;rsquo;ve had a lot of success with this trio lately. It has provided a lot of details about what is going on in my application that would have been more difficult to obtain before.
- </description>
+      <description>Last month I gave a presentation on using Serilog, Elasticsearch and Kibana for logging from an application. You can see the slides from that presentation below. I&amp;rsquo;ve had a lot of success with this trio lately. It has provided a lot of details about what is going on in my application that would have been more difficult to obtain before.</description>
     </item>
-    
     <item>
       <title>Good Habits for Structured Logging with Serilog</title>
       <link>https://blachniet.com/posts/serilog-good-habits/</link>
       <pubDate>Tue, 03 Mar 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/serilog-good-habits/</guid>
       <description>Below is a collection of good habits I&amp;rsquo;ve identified in my recent experiences with structured logging. The code examples are specific to Serilog, but the ideas can be applied to other structured logging tool sets (my stack of choice for .NET projects is Serilog, Elasticsearch and Kibana). Got your own structured logging practices to contribute? Share them on Twitter!
 EventID When you create you log events, include an EventID property to uniquely identify the event.</description>
     </item>
-    
     <item>
       <title>Structured Logging with Serilog and ELK</title>
       <link>https://blachniet.com/posts/structured-logging-serilog-elk/</link>
       <pubDate>Mon, 23 Feb 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/structured-logging-serilog-elk/</guid>
       <description>ThoughtWorks recently released their Technology Radar report for January 2015 and structured logging was among the techniques that they strongly suggested that the industry adopt. I&amp;rsquo;ve actually had some exposure to structured logging over the past year and have been very happy with the results. So, I thought I would share my experience.
 My first exposure to structured logging was in early 2014. I was creating a simple Python application to monitor the amount traffic through my modem throughout the day and I was logging events from my application to logentries.</description>
     </item>
-    
   </channel>
 </rss>

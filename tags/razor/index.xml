@@ -5,20 +5,20 @@
     <link>https://blachniet.com/tags/razor/</link>
     <description>Recent content in razor on Brian Lachniet</description>
     <image>
+      <title>Brian Lachniet</title>
       <url>https://blachniet.com/papermod-cover.png</url>
       <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 10 Aug 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/razor/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Wed, 10 Aug 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blachniet.com/tags/razor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Partial Views with Unobtrusive AJAX</title>
       <link>https://blachniet.com/posts/partial-views-with-unobtrusive-ajax/</link>
       <pubDate>Wed, 10 Aug 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/partial-views-with-unobtrusive-ajax/</guid>
       <description>In my recent exploration of web development in ASP.NET, I found what I assume to be a fairly common need to have part of a view/page update without the entire page updating. In my particular case, I wanted to have a page that listed items but also provided a form that allowed you to add an item. When an item was added, the list of items would be updated without having to regenerate the entire page.</description>
     </item>
-    
   </channel>
 </rss>

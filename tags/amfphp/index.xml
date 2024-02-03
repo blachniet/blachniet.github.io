@@ -5,30 +5,28 @@
     <link>https://blachniet.com/tags/amfphp/</link>
     <description>Recent content in amfphp on Brian Lachniet</description>
     <image>
+      <title>Brian Lachniet</title>
       <url>https://blachniet.com/papermod-cover.png</url>
       <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 06 Sep 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/amfphp/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 06 Sep 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blachniet.com/tags/amfphp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Flash Data Storage Services : Part 2</title>
       <link>https://blachniet.com/posts/flash-data-storage-services-part-2/</link>
       <pubDate>Tue, 06 Sep 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/flash-data-storage-services-part-2/</guid>
       <description>In my last post we set up our EasyPHP server and created a MySQL database for our event manager. In this post we are going to create the Amfphp service to create, delete, and get events from the database. We are also going to create an ActionScript 3 class to talk to the PHP service.
 Creating the Service Your event service will be contained within a single PHP file in the Amfphp\Services\ directory.</description>
     </item>
-    
     <item>
       <title>Data Storage Services for Flash Applications : Part 1</title>
       <link>https://blachniet.com/posts/flash-data-storage-services-part-1/</link>
       <pubDate>Tue, 30 Aug 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/flash-data-storage-services-part-1/</guid>
       <description>A core need of many online Flash applications is to store data in an online database. Supporting this need requires the integration of a few different technologies. The solution that I will be walking you through in this and the next tutorial post will integrate AS3, PHP, MySQL, and amfphp. This post will contain the boring, yet necessary, setup steps. This includes installing all tools and frameworks as well as creating the MySQL database to store your application data.</description>
     </item>
-    
   </channel>
 </rss>

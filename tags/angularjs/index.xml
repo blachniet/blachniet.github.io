@@ -5,21 +5,21 @@
     <link>https://blachniet.com/tags/angularjs/</link>
     <description>Recent content in angularjs on Brian Lachniet</description>
     <image>
+      <title>Brian Lachniet</title>
       <url>https://blachniet.com/papermod-cover.png</url>
       <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 16 Dec 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/angularjs/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Mon, 16 Dec 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blachniet.com/tags/angularjs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Force Bundling Optimizations</title>
       <link>https://blachniet.com/posts/force-bundling-optimizations/</link>
       <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/force-bundling-optimizations/</guid>
       <description>Use the following code in the BundleConfig.cs of your ASP.NET MVC application to force bundling and minification.
 // BundleConfig::RegisterBundles BundleTable.EnableOptimizations = true; Why? Why would you do this? Sometimes bundling and minification causes problems, such as in AngularJS. You will want to find these problems before publishing, so just enable this line every once in a while to make sure everything still works as expected with the optimizations.</description>
     </item>
-    
   </channel>
 </rss>

@@ -5,30 +5,28 @@
     <link>https://blachniet.com/tags/tutorial/</link>
     <description>Recent content in tutorial on Brian Lachniet</description>
     <image>
+      <title>Brian Lachniet</title>
       <url>https://blachniet.com/papermod-cover.png</url>
       <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 09 Oct 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 09 Oct 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blachniet.com/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Flare3D &amp; FlashDevelop Setup</title>
       <link>https://blachniet.com/posts/flare3d-flashdevelop/</link>
       <pubDate>Sun, 09 Oct 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/flare3d-flashdevelop/</guid>
       <description>This post is a simple walkthrough for getting the latest Flare3D pre release (2.0.42) and the latest FlashDevelop (4.0.0 RC1) working together nicely. This post builds on an older how-to done by the Flare3D team which can be found here.
-  Get the latest FlashDevelop  Download FlashDevelop 4.0.0 RC1 here. Run the installer.  Make sure that you install Flex 4.5 SDK as part of the FlashDevelop installation.</description>
+Get the latest FlashDevelop Download FlashDevelop 4.0.0 RC1 here. Run the installer. Make sure that you install Flex 4.5 SDK as part of the FlashDevelop installation. The installer will do this by default.</description>
     </item>
-    
     <item>
       <title>Data Storage Services for Flash Applications : Part 1</title>
       <link>https://blachniet.com/posts/flash-data-storage-services-part-1/</link>
       <pubDate>Tue, 30 Aug 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/flash-data-storage-services-part-1/</guid>
       <description>A core need of many online Flash applications is to store data in an online database. Supporting this need requires the integration of a few different technologies. The solution that I will be walking you through in this and the next tutorial post will integrate AS3, PHP, MySQL, and amfphp. This post will contain the boring, yet necessary, setup steps. This includes installing all tools and frameworks as well as creating the MySQL database to store your application data.</description>
     </item>
-    
   </channel>
 </rss>

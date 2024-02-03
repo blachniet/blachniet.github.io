@@ -5,22 +5,22 @@
     <link>https://blachniet.com/tags/restic/</link>
     <description>Recent content in restic on Brian Lachniet</description>
     <image>
+      <title>Brian Lachniet</title>
       <url>https://blachniet.com/papermod-cover.png</url>
       <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 10 Dec 2022 20:04:24 -0500</lastBuildDate><atom:link href="https://blachniet.com/tags/restic/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 10 Dec 2022 20:04:24 -0500</lastBuildDate>
+    <atom:link href="https://blachniet.com/tags/restic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Back up macOS Photos with Restic</title>
       <link>https://blachniet.com/posts/back-up-macos-photos-restic/</link>
       <pubDate>Sat, 10 Dec 2022 20:04:24 -0500</pubDate>
-      
       <guid>https://blachniet.com/posts/back-up-macos-photos-restic/</guid>
       <description>Restic is a wonderfully simple backup program. I&amp;rsquo;ve used it on my Linux machines for a while. I recently decided to use it on macOS as well.
 restic --repo /Volumes/restic-repo --verbose backup ~/Documents ~/Pictures If you run this on macOS, you might get an error like the following from restic. The error indicates that restic can&amp;rsquo;t open the Photos library folder.
 can not obtain extended attribute com.apple.fileprovider.ignore#P for /Users/blachniet/Pictures/Photos Library.photoslibrary: can not obtain extended attribute com.</description>
     </item>
-    
   </channel>
 </rss>

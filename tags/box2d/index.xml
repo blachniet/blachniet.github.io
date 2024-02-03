@@ -5,21 +5,21 @@
     <link>https://blachniet.com/tags/box2d/</link>
     <description>Recent content in box2d on Brian Lachniet</description>
     <image>
+      <title>Brian Lachniet</title>
       <url>https://blachniet.com/papermod-cover.png</url>
       <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 02 Nov 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/box2d/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Wed, 02 Nov 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blachniet.com/tags/box2d/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Diving Into World Construction Kit</title>
       <link>https://blachniet.com/posts/diving-into-world-construction-kit/</link>
       <pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/diving-into-world-construction-kit/</guid>
       <description>In the game that I’ve been working on recently I’ve been using this amazing little library called World Construction Kit (WCK). This framework has saved me tons of time and made setting up Box2D worlds and bodies really easy. Emanuele Feronato wrote up a nice getting started tutorial and there are 2 very useful pages on the GitHub Wiki:
- Box2d Flash Alchemy Port + World Construction Kit –Feronato World Construction Kit –github Wiki Box2D Flash Alchemy Port –github Wiki This is great material for getting started.</description>
+Box2d Flash Alchemy Port + World Construction Kit –Feronato World Construction Kit –github Wiki Box2D Flash Alchemy Port –github Wiki This is great material for getting started.</description>
     </item>
-    
   </channel>
 </rss>

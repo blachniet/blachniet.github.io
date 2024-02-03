@@ -5,22 +5,22 @@
     <link>https://blachniet.com/tags/html/</link>
     <description>Recent content in html on Brian Lachniet</description>
     <image>
+      <title>Brian Lachniet</title>
       <url>https://blachniet.com/papermod-cover.png</url>
       <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 27 Dec 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Fri, 27 Dec 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blachniet.com/tags/html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HTML5 Articles and Sections</title>
       <link>https://blachniet.com/posts/html5-articles-sections/</link>
       <pubDate>Fri, 27 Dec 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/html5-articles-sections/</guid>
       <description>Having trouble deciding whether to use a div, section or article in your HTML5 page? Oli Studholme has a great article explaining how they should be used and provides a very simple method for deciding which to use.
- To decide which of these three elements is appropriate, choose the first suitable option:
-1. Would the enclosed content would make sense on it’s own in a feed reader? If so use</description>
+To decide which of these three elements is appropriate, choose the first suitable option:
+1. Would the enclosed content would make sense on it’s own in a feed reader? If so use 2.</description>
     </item>
-    
   </channel>
 </rss>

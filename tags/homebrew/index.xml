@@ -5,21 +5,21 @@
     <link>https://blachniet.com/tags/homebrew/</link>
     <description>Recent content in homebrew on Brian Lachniet</description>
     <image>
+      <title>Brian Lachniet</title>
       <url>https://blachniet.com/papermod-cover.png</url>
       <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 03 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/homebrew/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 03 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blachniet.com/tags/homebrew/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Remove leaf and dependencies in Homebrew</title>
       <link>https://blachniet.com/posts/remove-leaf-and-dependencies-in-homebrew/</link>
       <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/remove-leaf-and-dependencies-in-homebrew/</guid>
       <description>A leaf in Homebrew is a formula that is not a dependency of another installed formula. You can list the currently installed leaves using the brew leaves command. See thoughtbot&amp;rsquo;s brew leaves post for more information on this command.
 Removing a leaf in Homebrew can suddenly introduce many more leaves; the dependencies of the formula you removed. In this post I will show you how to remove a leaf as well as all its dependencies not used by any other formulae.</description>
     </item>
-    
   </channel>
 </rss>

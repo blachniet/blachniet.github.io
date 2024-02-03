@@ -5,22 +5,23 @@
     <link>https://blachniet.com/tags/sublime-text/</link>
     <description>Recent content in sublime-text on Brian Lachniet</description>
     <image>
+      <title>Brian Lachniet</title>
       <url>https://blachniet.com/papermod-cover.png</url>
       <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 19 Oct 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/sublime-text/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 19 Oct 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blachniet.com/tags/sublime-text/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ctrl&#43;Alt&#43;Arrow Flips My Screen</title>
       <link>https://blachniet.com/posts/ctrlaltarrow-flips-my-screen/</link>
       <pubDate>Sat, 19 Oct 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/ctrlaltarrow-flips-my-screen/</guid>
       <description>If this is happening to you, it could be because you are using the Intel HD Graphics drivers. You&amp;rsquo;ll certainly notice this issue if you use Sublime Text since it uses the same key combination to expand the multiline editing.
 To resolve the issue you can either change Intel&amp;rsquo;s keys or turn them off entirely.
-  Right click on you desktop and select Graphics Properties in the context menu.</description>
+Right click on you desktop and select Graphics Properties in the context menu.
+Select Options</description>
     </item>
-    
   </channel>
 </rss>

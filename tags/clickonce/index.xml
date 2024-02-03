@@ -5,22 +5,22 @@
     <link>https://blachniet.com/tags/clickonce/</link>
     <description>Recent content in clickonce on Brian Lachniet</description>
     <image>
+      <title>Brian Lachniet</title>
       <url>https://blachniet.com/papermod-cover.png</url>
       <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 20 Oct 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/clickonce/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 20 Oct 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blachniet.com/tags/clickonce/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How Not To Restart A ClickOnce Application</title>
       <link>https://blachniet.com/posts/how-not-to-restart-a-clickonce-application/</link>
       <pubDate>Sat, 20 Oct 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/how-not-to-restart-a-clickonce-application/</guid>
       <description>Normally if you need to restart a WPF application programatically, you would use the following code:
 private void Restart() { System.Diagnostics.Process.Start( Application.ResourceAssembly.Location); Application.Current.Shutdown(); } If you have a ClickOnce WPF application, you do not want to do this. In order to understand why, you need to understand how a ClickOnce application is normally launched.
 The shortcut you click on in the Start menu is not a normal shortcut to an executable.</description>
     </item>
-    
   </channel>
 </rss>

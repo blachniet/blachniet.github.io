@@ -5,21 +5,21 @@
     <link>https://blachniet.com/tags/yaml/</link>
     <description>Recent content in yaml on Brian Lachniet</description>
     <image>
+      <title>Brian Lachniet</title>
       <url>https://blachniet.com/papermod-cover.png</url>
       <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 14 Feb 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/yaml/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 14 Feb 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blachniet.com/tags/yaml/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go-YAML Field Names</title>
       <link>https://blachniet.com/posts/go-yaml-field-names/</link>
       <pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/go-yaml-field-names/</guid>
       <description>I wasted away a good thirty minutes trying to figure out why I couldn&amp;rsquo;t parse my YAML config file this morning using go-yaml.
 package main import ( &amp;#34;fmt&amp;#34; &amp;#34;log&amp;#34; &amp;#34;gopkg.in/yaml.v2&amp;#34; ) var configText = ` Message: Welcome UpdateInterval: 5 EmailAddresses: - john.doe@example.com - jane.doe@example.com` type Config struct { Message string UpdateInterval int EmailAddresses []string } func main() { var c Config if err := yaml.Unmarshal([]byte(configText), &amp;amp;c); err != nil { log.</description>
     </item>
-    
   </channel>
 </rss>

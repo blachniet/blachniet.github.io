@@ -5,20 +5,20 @@
     <link>https://blachniet.com/tags/phpmyadmin/</link>
     <description>Recent content in phpmyadmin on Brian Lachniet</description>
     <image>
+      <title>Brian Lachniet</title>
       <url>https://blachniet.com/papermod-cover.png</url>
       <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 30 Aug 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/phpmyadmin/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 30 Aug 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blachniet.com/tags/phpmyadmin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Storage Services for Flash Applications : Part 1</title>
       <link>https://blachniet.com/posts/flash-data-storage-services-part-1/</link>
       <pubDate>Tue, 30 Aug 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/flash-data-storage-services-part-1/</guid>
       <description>A core need of many online Flash applications is to store data in an online database. Supporting this need requires the integration of a few different technologies. The solution that I will be walking you through in this and the next tutorial post will integrate AS3, PHP, MySQL, and amfphp. This post will contain the boring, yet necessary, setup steps. This includes installing all tools and frameworks as well as creating the MySQL database to store your application data.</description>
     </item>
-    
   </channel>
 </rss>

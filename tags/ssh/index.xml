@@ -5,21 +5,21 @@
     <link>https://blachniet.com/tags/ssh/</link>
     <description>Recent content in ssh on Brian Lachniet</description>
     <image>
+      <title>Brian Lachniet</title>
       <url>https://blachniet.com/papermod-cover.png</url>
       <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 04 Feb 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Mon, 04 Feb 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blachniet.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Remove a Passphrase from a SSH Key</title>
       <link>https://blachniet.com/posts/remove-a-passphrase-from-an-ssh-key/</link>
       <pubDate>Mon, 04 Feb 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/remove-a-passphrase-from-an-ssh-key/</guid>
       <description>If you are using GitHub for Windows with non-GitHub repositories, you may have run into the limitation that you cannot sync using an SSH key with a passphrase. One workaround is to push/pull from the shell, but if don&amp;rsquo;t mind removing the passphrase from the key, use the following command.
 ssh-keygen -p -P &amp;#34;my_old_password&amp;#34; -N “” -f my_key_file_name After you remove the passphrase you should be able to sync from within the GitHub for Windows client.</description>
     </item>
-    
   </channel>
 </rss>

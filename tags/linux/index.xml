@@ -5,21 +5,21 @@
     <link>https://blachniet.com/tags/linux/</link>
     <description>Recent content in linux on Brian Lachniet</description>
     <image>
+      <title>Brian Lachniet</title>
       <url>https://blachniet.com/papermod-cover.png</url>
       <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 28 May 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 28 May 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blachniet.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Failed to get D-Bus connection</title>
       <link>https://blachniet.com/posts/failed-to-get-d-bus-connection/</link>
       <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/failed-to-get-d-bus-connection/</guid>
       <description>After setting up the systemd service for Caddy, I received the following error when trying to start the service:
 $ sudo systemctl start caddy.service Job for caddy.service failed. See &amp;#39;systemctl status caddy.service&amp;#39; and &amp;#39;journalctl -xn&amp;#39; for details. $ systemctl status caddy.service Failed to get D-Bus connection: No such file or directory The fix was pretty easy. It turns out that dbus was not installed on the system. I installed it and then the service worked perfectly:</description>
     </item>
-    
   </channel>
 </rss>

@@ -5,22 +5,22 @@
     <link>https://blachniet.com/tags/wordpress/</link>
     <description>Recent content in wordpress on Brian Lachniet</description>
     <image>
+      <title>Brian Lachniet</title>
       <url>https://blachniet.com/papermod-cover.png</url>
       <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 12 Jan 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 12 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blachniet.com/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Create a Development Version of an Existing WordPress Site</title>
       <link>https://blachniet.com/posts/create-development-version-existing-wordpress-site/</link>
       <pubDate>Sun, 12 Jan 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/create-development-version-existing-wordpress-site/</guid>
       <description>UPDATE : This article provides a manual approach to creating a development copy of your website. However, I ran across this WPBeginner article which describes a much easier approach using the Duplicator plugin. I would suggest following that guide unless you prefer the manual process.
 Before We Start Here&amp;rsquo;s my environment setup. This post should still be helpful if your setup isn&amp;rsquo;t exactly the same, though.
- GoDaddy Hosting (production) WAMP (development) phpMyAdmin (production + development)  Files Download WordPress Files Instead of using the WordPress export feature, we&amp;rsquo;re going to grab all site&amp;rsquo;s files.</description>
+GoDaddy Hosting (production) WAMP (development) phpMyAdmin (production + development) Files Download WordPress Files Instead of using the WordPress export feature, we&amp;rsquo;re going to grab all site&amp;rsquo;s files.</description>
     </item>
-    
   </channel>
 </rss>

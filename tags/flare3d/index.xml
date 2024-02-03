@@ -5,21 +5,21 @@
     <link>https://blachniet.com/tags/flare3d/</link>
     <description>Recent content in flare3d on Brian Lachniet</description>
     <image>
+      <title>Brian Lachniet</title>
       <url>https://blachniet.com/papermod-cover.png</url>
       <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 09 Oct 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/flare3d/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 09 Oct 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blachniet.com/tags/flare3d/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Flare3D &amp; FlashDevelop Setup</title>
       <link>https://blachniet.com/posts/flare3d-flashdevelop/</link>
       <pubDate>Sun, 09 Oct 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/flare3d-flashdevelop/</guid>
       <description>This post is a simple walkthrough for getting the latest Flare3D pre release (2.0.42) and the latest FlashDevelop (4.0.0 RC1) working together nicely. This post builds on an older how-to done by the Flare3D team which can be found here.
-  Get the latest FlashDevelop  Download FlashDevelop 4.0.0 RC1 here. Run the installer.  Make sure that you install Flex 4.5 SDK as part of the FlashDevelop installation.</description>
+Get the latest FlashDevelop Download FlashDevelop 4.0.0 RC1 here. Run the installer. Make sure that you install Flex 4.5 SDK as part of the FlashDevelop installation. The installer will do this by default.</description>
     </item>
-    
   </channel>
 </rss>

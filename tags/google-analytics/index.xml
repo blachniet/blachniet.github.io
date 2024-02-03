@@ -5,20 +5,20 @@
     <link>https://blachniet.com/tags/google-analytics/</link>
     <description>Recent content in google-analytics on Brian Lachniet</description>
     <image>
+      <title>Brian Lachniet</title>
       <url>https://blachniet.com/papermod-cover.png</url>
       <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 25 Jan 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/google-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 25 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blachniet.com/tags/google-analytics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google Analytics Site Speed for Small Websites</title>
       <link>https://blachniet.com/posts/google-analytics-site-speed/</link>
       <pubDate>Sun, 25 Jan 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/google-analytics-site-speed/</guid>
       <description>If you&amp;rsquo;re running a small website and using Google Analytics, your site speed metrics graph might look empty. If you don&amp;rsquo;t get a lot of traffic there will be no samples to measure site performance. This is because the default sampling rate is only 1% (i.e. site speed metrics will only be collected for 1% of your visitors). This is plenty if your running a big site with tons of visitors per day, but if your running a smaller site this isn&amp;rsquo;t going to be good enough.</description>
     </item>
-    
   </channel>
 </rss>

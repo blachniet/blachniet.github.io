@@ -5,30 +5,28 @@
     <link>https://blachniet.com/tags/asp-net-identity/</link>
     <description>Recent content in asp-net-identity on Brian Lachniet</description>
     <image>
+      <title>Brian Lachniet</title>
       <url>https://blachniet.com/papermod-cover.png</url>
       <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 10 Nov 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/asp-net-identity/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 10 Nov 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blachniet.com/tags/asp-net-identity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Email Addresses as User Names in ASP.NET Identity</title>
       <link>https://blachniet.com/posts/email-addresses-as-user-names-in-asp-net-identity/</link>
       <pubDate>Sun, 10 Nov 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/email-addresses-as-user-names-in-asp-net-identity/</guid>
       <description>It&amp;rsquo;s common for web applications to use email addresses instead of user names to distinguish users. However, if you are using ASP.NET Identity, you have probably noticed that it has UserName built into the IUser interface. Since Identity assumes that this is the distinguishing field for the user, it&amp;rsquo;s not crazy to think that it might be a good place to drop the email address. In order to have Identity allow an email address in this field, you will need to write a custom IIdentityValidator.</description>
     </item>
-    
     <item>
       <title>Email Address in MVC 5 Google Authentication</title>
       <link>https://blachniet.com/posts/email-address-in-mvc-5-google-authentication/</link>
       <pubDate>Sat, 09 Nov 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/email-address-in-mvc-5-google-authentication/</guid>
       <description>I&amp;rsquo;m not proud to admit that I spent hours trying to figure out this very simple problem. The goal was simple: when a user logs into my web application using Google authentication, I want to be able to grab their email address so I can store it as part of their user profile. As expected, this is very simple.
 I&amp;rsquo;m assuming you&amp;rsquo;ve already enabled Google authentication by uncommenting app.UseGoogleAuthentication() in your Startup.</description>
     </item>
-    
   </channel>
 </rss>

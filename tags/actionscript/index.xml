@@ -5,49 +5,43 @@
     <link>https://blachniet.com/tags/actionscript/</link>
     <description>Recent content in actionscript on Brian Lachniet</description>
     <image>
+      <title>Brian Lachniet</title>
       <url>https://blachniet.com/papermod-cover.png</url>
       <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 02 Nov 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/actionscript/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Wed, 02 Nov 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blachniet.com/tags/actionscript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Diving Into World Construction Kit</title>
       <link>https://blachniet.com/posts/diving-into-world-construction-kit/</link>
       <pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/diving-into-world-construction-kit/</guid>
       <description>In the game that I’ve been working on recently I’ve been using this amazing little library called World Construction Kit (WCK). This framework has saved me tons of time and made setting up Box2D worlds and bodies really easy. Emanuele Feronato wrote up a nice getting started tutorial and there are 2 very useful pages on the GitHub Wiki:
- Box2d Flash Alchemy Port + World Construction Kit –Feronato World Construction Kit –github Wiki Box2D Flash Alchemy Port –github Wiki This is great material for getting started.</description>
+Box2d Flash Alchemy Port + World Construction Kit –Feronato World Construction Kit –github Wiki Box2D Flash Alchemy Port –github Wiki This is great material for getting started.</description>
     </item>
-    
     <item>
       <title>Flash Data Storage Services : Part 2</title>
       <link>https://blachniet.com/posts/flash-data-storage-services-part-2/</link>
       <pubDate>Tue, 06 Sep 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/flash-data-storage-services-part-2/</guid>
       <description>In my last post we set up our EasyPHP server and created a MySQL database for our event manager. In this post we are going to create the Amfphp service to create, delete, and get events from the database. We are also going to create an ActionScript 3 class to talk to the PHP service.
 Creating the Service Your event service will be contained within a single PHP file in the Amfphp\Services\ directory.</description>
     </item>
-    
     <item>
       <title>Data Storage Services for Flash Applications : Part 1</title>
       <link>https://blachniet.com/posts/flash-data-storage-services-part-1/</link>
       <pubDate>Tue, 30 Aug 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/flash-data-storage-services-part-1/</guid>
       <description>A core need of many online Flash applications is to store data in an online database. Supporting this need requires the integration of a few different technologies. The solution that I will be walking you through in this and the next tutorial post will integrate AS3, PHP, MySQL, and amfphp. This post will contain the boring, yet necessary, setup steps. This includes installing all tools and frameworks as well as creating the MySQL database to store your application data.</description>
     </item>
-    
     <item>
       <title>Hello Android AIR World</title>
       <link>https://blachniet.com/posts/hello-android-air-world/</link>
       <pubDate>Sat, 20 Aug 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/hello-android-air-world/</guid>
       <description>A while back I wrote my first &amp;lsquo;Hello World&amp;rsquo; Android AIR application but never posted anything about it. Since I have this shiny new site, I figured I’d write up something real quick. If you know me at all, it would come as no surprise that I have not dropped the $700 or so on Flash CS5.5. That means that I did this application, a very simple Pong game, with only FlashDevelop.</description>
     </item>
-    
   </channel>
 </rss>

@@ -5,22 +5,23 @@
     <link>https://blachniet.com/tags/lets-encrypt/</link>
     <description>Recent content in lets-encrypt on Brian Lachniet</description>
     <image>
+      <title>Brian Lachniet</title>
       <url>https://blachniet.com/papermod-cover.png</url>
       <link>https://blachniet.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 21 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blachniet.com/tags/lets-encrypt/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 21 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blachniet.com/tags/lets-encrypt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Obtain a wildcard Let&#39;s Encrypt certificate</title>
       <link>https://blachniet.com/posts/obtain-a-wildcard-lets-encrypt-certificate/</link>
       <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blachniet.com/posts/obtain-a-wildcard-lets-encrypt-certificate/</guid>
       <description>Use the manual plugin and DNS challenge in certbot to obtain a wildcard Let&amp;rsquo;s Encrypt TLS certificate.
- Subdomains only. You can only use this wildcard certificate on subdomains (e.g. www.example.com, mail.example.com). You cannot use it for the apex domain (e.g. example.com). Obtain a separate certificate for the apex domain.
- $ certbot certonly --manual --preferred-challenges dns -d &amp;#39;*.example.com&amp;#39; Create the TXT record as instructed by certbot. Before continuing, use dig</description>
+Subdomains only. You can only use this wildcard certificate on subdomains (e.g. www.example.com, mail.example.com). You cannot use it for the apex domain (e.g. example.com). Obtain a separate certificate for the apex domain.
+$ certbot certonly --manual --preferred-challenges dns -d &amp;#39;*.example.com&amp;#39; Create the TXT record as instructed by certbot. Before continuing, use dig
+or Google&amp;rsquo;s Dig tool to confirm the records is applied.</description>
     </item>
-    
   </channel>
 </rss>
