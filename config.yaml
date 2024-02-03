@@ -96,8 +96,8 @@ params:
     url: "https://github.com/blachniet"
   - name: linkedin
     url: "https://www.linkedin.com/in/blachniet/"
-  - name: twitter
-    url: "https://twitter.com/blachniet"
+  - name: x
+    url: "https://x.com/blachniet"
   - name: keybase
     url: "https://keybase.io/blachniet"
   - name: cv
