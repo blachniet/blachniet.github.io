@@ -20,5 +20,14 @@
       <guid>https://blachniet.com/posts/backup-your-kubernetes-cluster-with-velero-and-backblaze/</guid>
       <description>After finalizing backups from my NAS and household computers to Backblaze&amp;rsquo;s B2 Cloud Storage, I decided it was time to do the same for my Kubernetes cluster. I use the built-in backup utility on my NAS and Restic on my household computers. After a little research, I found that Velero is a solid option for backing up Kubernetes clusters. It supports storage providers that have an AWS S3-compatible API, which includes B2 Cloud Storage!</description>
     </item>
+    <item>
+      <title>Back up macOS Photos with Restic</title>
+      <link>https://blachniet.com/posts/back-up-macos-photos-restic/</link>
+      <pubDate>Sat, 10 Dec 2022 20:04:24 -0500</pubDate>
+      <guid>https://blachniet.com/posts/back-up-macos-photos-restic/</guid>
+      <description>Restic is a wonderfully simple backup program. I&amp;rsquo;ve used it on my Linux machines for a while. I recently decided to use it on macOS as well.
+restic --repo /Volumes/restic-repo --verbose backup ~/Documents ~/Pictures If you run this on macOS, you might get an error like the following from restic. The error indicates that restic can&amp;rsquo;t open the Photos library folder.
+can not obtain extended attribute com.apple.fileprovider.ignore#P for /Users/blachniet/Pictures/Photos Library.photoslibrary: can not obtain extended attribute com.</description>
+    </item>
   </channel>
 </rss>
