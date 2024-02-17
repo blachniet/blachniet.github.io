@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>backup on Brian Lachniet</title>
+    <link>https://blachniet.com/tags/backup/</link>
+    <description>Recent content in backup on Brian Lachniet</description>
+    <image>
+      <title>Brian Lachniet</title>
+      <url>https://blachniet.com/papermod-cover.png</url>
+      <link>https://blachniet.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 17 Feb 2024 14:00:00 -0500</lastBuildDate>
+    <atom:link href="https://blachniet.com/tags/backup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Backup Your Kubernetes Cluster with Velero and Backblaze</title>
+      <link>https://blachniet.com/posts/backup-your-kubernetes-cluster-with-velero-and-backblaze/</link>
+      <pubDate>Sat, 17 Feb 2024 14:00:00 -0500</pubDate>
+      <guid>https://blachniet.com/posts/backup-your-kubernetes-cluster-with-velero-and-backblaze/</guid>
+      <description>After finalizing backups from my NAS and household computers to Backblaze&amp;rsquo;s B2 Cloud Storage, I decided it was time to do the same for my Kubernetes cluster. I use the built-in backup utility on my NAS and Restic on my household computers. After a little research, I found that Velero is a solid option for backing up Kubernetes clusters. It supports storage providers that have an AWS S3-compatible API, which includes B2 Cloud Storage!</description>
+    </item>
+  </channel>
+</rss>

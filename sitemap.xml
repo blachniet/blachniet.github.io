@@ -2,19 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blachniet.com/tags/backblaze/</loc>
+    <lastmod>2024-02-17T14:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://blachniet.com/tags/backup/</loc>
+    <lastmod>2024-02-17T14:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://blachniet.com/posts/backup-your-kubernetes-cluster-with-velero-and-backblaze/</loc>
+    <lastmod>2024-02-17T14:00:00-05:00</lastmod>
+  </url><url>
     <loc>https://blachniet.com/</loc>
-    <lastmod>2024-02-03T12:46:34-05:00</lastmod>
+    <lastmod>2024-02-17T14:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://blachniet.com/tags/kubernetes/</loc>
+    <lastmod>2024-02-17T14:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://blachniet.com/posts/</loc>
+    <lastmod>2024-02-17T14:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://blachniet.com/tags/</loc>
+    <lastmod>2024-02-17T14:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://blachniet.com/tags/velero/</loc>
+    <lastmod>2024-02-17T14:00:00-05:00</lastmod>
   </url><url>
     <loc>https://blachniet.com/posts/create-a-minimal-local-debian-vm-with-qemu/</loc>
     <lastmod>2024-02-03T12:46:34-05:00</lastmod>
   </url><url>
-    <loc>https://blachniet.com/posts/</loc>
-    <lastmod>2024-02-03T12:46:34-05:00</lastmod>
-  </url><url>
     <loc>https://blachniet.com/tags/qemu/</loc>
-    <lastmod>2024-02-03T12:46:34-05:00</lastmod>
-  </url><url>
-    <loc>https://blachniet.com/tags/</loc>
     <lastmod>2024-02-03T12:46:34-05:00</lastmod>
   </url><url>
     <loc>https://blachniet.com/tags/ffmpeg/</loc>

@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Feb 2024 12:46:34 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 17 Feb 2024 14:00:00 -0500</lastBuildDate>
     <atom:link href="https://blachniet.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Backup Your Kubernetes Cluster with Velero and Backblaze</title>
+      <link>https://blachniet.com/posts/backup-your-kubernetes-cluster-with-velero-and-backblaze/</link>
+      <pubDate>Sat, 17 Feb 2024 14:00:00 -0500</pubDate>
+      <guid>https://blachniet.com/posts/backup-your-kubernetes-cluster-with-velero-and-backblaze/</guid>
+      <description>After finalizing backups from my NAS and household computers to Backblaze&amp;rsquo;s B2 Cloud Storage, I decided it was time to do the same for my Kubernetes cluster. I use the built-in backup utility on my NAS and Restic on my household computers. After a little research, I found that Velero is a solid option for backing up Kubernetes clusters. It supports storage providers that have an AWS S3-compatible API, which includes B2 Cloud Storage!</description>
+    </item>
     <item>
       <title>Create a minimal, local Debian VM with QEMU</title>
       <link>https://blachniet.com/posts/create-a-minimal-local-debian-vm-with-qemu/</link>
