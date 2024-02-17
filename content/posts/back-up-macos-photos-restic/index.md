@@ -2,6 +2,7 @@
 title: "Back up macOS Photos with Restic"
 date: 2022-12-10T20:04:24-05:00
 tags:
+- backup
 - macos
 - restic
 ---
