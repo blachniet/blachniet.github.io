@@ -1,7 +1,6 @@
 ---
 title: "Backup Your Kubernetes Cluster with Velero and Backblaze"
-date: 2024-02-04T07:15:11-05:00
-draft: true
+date: 2024-02-17T14:00:00-05:00
 tags:
 - backblaze
 - backup
@@ -13,6 +12,12 @@ After finalizing backups from my NAS and household computers to Backblaze's B2 C
 
 In this post, I'll walk through a minimal Velero install that saves snapshots to B2 using the `aws` provider.
 
+> **📝 Software versions**
+>
+> Examples in this post were tested with the following software versions:
+> - Velero CLI v1.13.0
+> - Velero plugin for AWS v1.8.2
+> - K3s v1.28.6+k3s2
 
 ## In praise of Backblaze
 
@@ -28,7 +33,7 @@ Alright, with my gushing out of the way, let's dive in...
 
 ## Create the bucket and application key
 
-To start we will create a bucket and application key in Backblaze. I'm going to use the web UI, but you may be able to complete some or all of these steps with the [Backblaze CLI](https://www.backblaze.com/docs/cloud-storage-command-line-tools).
+To start we will create a bucket and application key in Backblaze. I'm going to use the web UI, but you may be able to complete some or all of these steps using the [Backblaze CLI](https://www.backblaze.com/docs/cloud-storage-command-line-tools).
 
 Create a [B2 Cloud Storage Bucket](https://secure.backblaze.com/b2_buckets.htm) with the following options. This is where Velero will store backups.
 
